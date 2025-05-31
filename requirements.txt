@@ -1,0 +1,7 @@
+pandas
+camelot-py[cv]
+PyPDF2
+openai
+streamlit
+jupyterlab
+dotenv
