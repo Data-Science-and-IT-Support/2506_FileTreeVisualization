@@ -56,8 +56,5 @@ This repo contains a requirements.txt file with a list of all the packages and d
     pip install -r requirements.txt
     ```
 
-At the end of this exercise you should:
 
-- be more familiar with the basic usage of different plotting libraries
-- be able to create plots which convey certain information
 

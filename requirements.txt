@@ -5,3 +5,15 @@ openai
 streamlit
 jupyterlab
 dotenv
+
+seedir
+
+directory-tree
+
+graphviz
+
+pyvis==0.3.1
+jinja2
+networkx
+matplotlib
+scipy
