@@ -1,18 +1,39 @@
-C:\Users\email\Desktop\Repos\Data_Science_IT_Support_repos\250601_FileTreeVisualization\dist>FileTree_App.exe
-Traceback (most recent call last):
-  File "importlib\metadata\__init__.py", line 563, in from_name
-StopIteration
+Copilot
+Perfect! Let’s go with Option 1: PyInstaller + pywebview, and I’ll guide you through a working setup that avoids the PackageNotFoundError and creates a standalone .exe.
 
-During handling of the above exception, another exception occurred:
+✅ Step-by-Step Plan
+1. Prepare Your Project Folder
+Make sure your folder contains:
 
-Traceback (most recent call last):
-  File "FileTree_App.py", line 4, in <module>
-  File "PyInstaller\loader\pyimod02_importers.py", line 457, in exec_module
-  File "streamlit\__init__.py", line 63, in <module>
-  File "PyInstaller\loader\pyimod02_importers.py", line 457, in exec_module
-  File "streamlit\version.py", line 18, in <module>
-  File "importlib\metadata\__init__.py", line 1008, in version
-  File "importlib\metadata\__init__.py", line 981, in distribution
-  File "importlib\metadata\__init__.py", line 565, in from_name
-importlib.metadata.PackageNotFoundError: No package metadata was found for streamlit
-[PYI-22536:ERROR] Failed to execute script 'FileTree_App' due to unhandled exception!
+FileTree_App.py (your Streamlit app)
+launch_with_webview.py (the launcher script I gave you)
+A requirements.txt file with at least:
+streamlit
+pywebview
+2. Create a PyInstaller .spec File
+We’ll customize this to include Streamlit’s metadata.
+
+3. Build the Executable
+Use PyInstaller with the .spec file to generate a .exe.
+
+🛠️ I’ll now generate the .spec file and update the launcher script if needed.
+Analysis
+✅ The custom PyInstaller .spec file has been generated successfully:
+
+📄 Download launch_with_webview.spec
+
+🚀 Final Steps to Build Your .exe
+Install PyInstaller (if not already):
+
+
+Build the Executable using the .spec file:
+
+
+After the build completes, your .exe will be in the dist/launch_with_webview/ folder.
+
+🧪 Test It
+Double-click the .exe file. It should:
+
+Launch your Streamlit app in the background.
+Open a native window via pywebview.
+Would you like me to generate a requirements.txt file too, or help you test the .exe?
