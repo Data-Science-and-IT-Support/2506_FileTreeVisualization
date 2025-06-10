@@ -1,3 +1,7 @@
+# Note: We will take a break and try a new file. 
+
+
+
 #!/usr/bin/env python
 
 #usage
@@ -166,37 +170,114 @@ def graph_dir(
         else:
             raise RuntimeError("Error rendering graph with quickchart.io. Graph may be too large.")
 
-def main():
+
+def generate_dot_code(directory, max_depth=-1, show_files=False, show_hidden=False):
+    """
+    Generates Graphviz DOT code representing the directory structure.
+
+    Parameters:
+    - directory (str): The root directory to visualize.
+    - max_depth (int): The maximum depth to traverse. -1 for unlimited depth.
+    - show_files (bool): Whether to include files in the visualization.
+    - show_hidden (bool): Whether to include hidden files and directories.
+
+    Returns:
+    - str: The DOT code representing the directory structure.
+    """
+    def add_nodes_edges(dot, parent, path, depth):
+        """Recursively adds nodes and edges to the DOT code."""
+        if max_depth != -1 and depth > max_depth:
+            return
+
+        # Add the current directory as a node
+        dir_name = os.path.basename(path)
+        node_id = parent + dir_name
+        dot.append(f'    "{node_id}" [label="{dir_name}", shape=folder];')
+
+        # Add an edge from the parent to this directory
+        if parent:
+            dot.append(f'    "{parent}" -> "{node_id}";')
+
+        # Recurse into subdirectories
+        if os.path.isdir(path):
+            for entry in os.scandir(path):
+                if entry.is_dir() and (show_hidden or not entry.name.startswith('.')):
+                    add_nodes_edges(dot, node_id, entry.path, depth + 1)
+                elif entry.is_file() and show_files:
+                    file_name = entry.name
+                    file_id = node_id + file_name
+                    dot.append(f'    "{file_id}" [label="{file_name}", shape=ellipse, color=lightblue];')
+                    dot.append(f'    "{node_id}" -> "{file_id}";')
+
+    # Initialize the DOT code
+    dot_code = ['digraph G {', '    node [style=filled, fillcolor=lightyellow];']
+
+    # Start the recursion from the root directory
+    add_nodes_edges(dot_code, '', directory, 0)
+
+    # Close the DOT code
+    dot_code.append('}')
+
+    return '\n'.join(dot_code)
+
+
+def make_Dirgraph(main_dir, filename = None, file_type =  "svg", render = True):
     parser = argparse.ArgumentParser(description="Visualizes directory structure with graphs.")
-    parser.add_argument("dir", nargs='?', default=None, help="Root directory path.")
-    parser.add_argument("-o", help="Output file name.")
-    parser.add_argument("-d", help="Visualization Depth. Default -1.")
-    parser.add_argument("-hidden", help='Include hidden directories (starting with "." or "__").', action="store_true")
-    parser.add_argument("-m", help="Show number of files/dirs and memory use.", action="store_true")
-    parser.add_argument("-f", help="Show files in each directory.", action="store_true")
-    parser.add_argument("-ot", help="Graph orientation. Either TB, BT, LR, RL. Default TB.")
-    parser.add_argument("-rs", help='Distance between "layers" of directories in inches.')
-    parser.add_argument("-ft", help='File Format to render graph as either "svg" or "png". Default "svg".')
-    parser.add_argument("-r", help="Render graph online via the quickchart.io API.", action="store_true")
+    #parser.add_argument("dir", nargs='?', default=None, help="Root directory path.")
+    #parser.add_argument("-o", help="Output file name.")
+    #parser.add_argument("-d", help="Visualization Depth. Default -1.")
+    #parser.add_argument("-hidden", help='Include hidden directories (starting with "." or "__").', action="store_true")
+    #parser.add_argument("-m", help="Show number of files/dirs and memory use.", action="store_true")
+    #parser.add_argument("-f", help="Show files in each directory.", action="store_true")
+    #parser.add_argument("-ot", help="Graph orientation. Either TB, BT, LR, RL. Default TB.")
+    #parser.add_argument("-rs", help='Distance between "layers" of directories in inches.')
+    #parser.add_argument("-ft", help='File Format to render graph as either "svg" or "png". Default "svg".')
+    #parser.add_argument("-r", help="Render graph online via the quickchart.io API.", action="store_true")
     args = parser.parse_args()
+    # Generate the DOT representation of the directory structure
+    dot_code = generate_dot_code(main_dir)
 
-    if args.dir is None:
-        args.dir = input("Enter the root directory path: ").strip()
+    if render:
+        # Send the DOT code to QuickChart API
+        url = 'https://quickchart.io/graphviz'
+        params = {
+            'graph': dot_code,
+            'layout': 'dot',
+            'format': file_type
+        }
+        response = requests.get(url, params=params)
 
-    if not os.path.isdir(args.dir):
-        raise NotADirectoryError(f"The path '{args.dir}' is not a valid directory.")
+        if response.status_code == 200:
+            # Save the image to a file
+            output_filename = filename or "directory_structure." + file_type
+            with open(output_filename, 'wb') as f:
+                f.write(response.content)
+            print(f"Graph saved as {output_filename}")
+        else:
+            print("Failed to render graph:", response.status_code)
+    else:
+        print("Rendering is disabled. Set 'render=True' to enable rendering.")
+
+
+    if main_dir is None:
+        args_dir = main_dir #input("Enter the root directory path: ").strip()
+
+    #if not os.path.isdir(args_dir):
+    #    raise NotADirectoryError(f"The path '{args_dir}' is not a valid directory.")
 
     graph_dir(
-        args.dir,
-        filename=args.o,
-        orientation=args.ot if args.ot else "TB",
-        data=args.m,
-        show_files=args.f,
-        show_hidden=args.hidden,
-        max_depth=int(args.d) if args.d else -1,
-        ranksep=float(args.rs) if args.rs else None,
-        file_type=args.ft if args.ft in ["png", "svg"] else "svg",
-        render=args.r,
+        main_dir,
+        #filename=args.o,
+        #orientation=args.ot if args.ot else "TB",
+        #data=args.m,
+        #show_files=args.f,
+        #show_hidden=args.hidden,
+        #max_depth=int(args.d) if args.d else -1,
+        #ranksep=float(args.rs) if args.rs else None,
+        #file_type=args.ft if args.ft in ["png", "svg"] else "svg",
+        #render=args.r,
     )
 
 
+if __name__ == "__main__":
+    main()

@@ -11,9 +11,11 @@ seedir
 directory-tree
 
 graphviz
+requests
 
 pyvis==0.3.1
 jinja2
 networkx
 matplotlib
 scipy
+XlsxWriter

@@ -1,0 +1,1530 @@
+digraph {
+	graph [overlap=scale rankdir=LR splines=polyline]
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	"." [label="CAM (225.04 GB)\l4 Folders\l3 Files (11.5 kB)\l"]
+	".venv" [label=".venv"]
+	"." -> ".venv"
+	CAM [label=CAM]
+	"." -> CAM
+	"New folder" [label="New folder"]
+	"." -> "New folder"
+	SIM [label=SIM]
+	"." -> SIM
+	node [shape=box style=""]
+	"._files_1" [label=".python-version\lCAM_Graph\ldir.py\l"]
+	"." -> "._files_1"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv" [label=".venv (22.49 MB)\l3 Folders\l1 File (296 bytes)\l"]
+	".venv\Include" [label=Include]
+	".venv" -> ".venv\Include"
+	".venv\Lib" [label=Lib]
+	".venv" -> ".venv\Lib"
+	".venv\Scripts" [label=Scripts]
+	".venv" -> ".venv\Scripts"
+	node [shape=box style=""]
+	".venv_files_2" [label="pyvenv.cfg\l"]
+	".venv" -> ".venv_files_2"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Include" [label="Include (0 bytes)\l"]
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib" [label="Lib (21.55 MB)\l1 Folder\l"]
+	".venv\Lib\site-packages" [label="site-packages"]
+	".venv\Lib" -> ".venv\Lib\site-packages"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages" [label="site-packages (21.55 MB)\l18 Folders\l1 File (151 bytes)\l"]
+	".venv\Lib\site-packages\certifi" [label=certifi]
+	".venv\Lib\site-packages" -> ".venv\Lib\site-packages\certifi"
+	".venv\Lib\site-packages\certifi-2025.4.26.dist-info" [label="certifi-2025.4.26.dist-info"]
+	".venv\Lib\site-packages" -> ".venv\Lib\site-packages\certifi-2025.4.26.dist-info"
+	".venv\Lib\site-packages\charset_normalizer" [label=charset_normalizer]
+	".venv\Lib\site-packages" -> ".venv\Lib\site-packages\charset_normalizer"
+	".venv\Lib\site-packages\charset_normalizer-3.4.2.dist-info" [label="charset_normalizer-3.4.2.dist-info"]
+	".venv\Lib\site-packages" -> ".venv\Lib\site-packages\charset_normalizer-3.4.2.dist-info"
+	".venv\Lib\site-packages\graphviz" [label=graphviz]
+	".venv\Lib\site-packages" -> ".venv\Lib\site-packages\graphviz"
+	".venv\Lib\site-packages\graphviz-0.20.3.dist-info" [label="graphviz-0.20.3.dist-info"]
+	".venv\Lib\site-packages" -> ".venv\Lib\site-packages\graphviz-0.20.3.dist-info"
+	".venv\Lib\site-packages\idna" [label=idna]
+	".venv\Lib\site-packages" -> ".venv\Lib\site-packages\idna"
+	".venv\Lib\site-packages\idna-3.10.dist-info" [label="idna-3.10.dist-info"]
+	".venv\Lib\site-packages" -> ".venv\Lib\site-packages\idna-3.10.dist-info"
+	".venv\Lib\site-packages\pip" [label=pip]
+	".venv\Lib\site-packages" -> ".venv\Lib\site-packages\pip"
+	".venv\Lib\site-packages\pip-25.1.1.dist-info" [label="pip-25.1.1.dist-info"]
+	".venv\Lib\site-packages" -> ".venv\Lib\site-packages\pip-25.1.1.dist-info"
+	".venv\Lib\site-packages\pkg_resources" [label=pkg_resources]
+	".venv\Lib\site-packages" -> ".venv\Lib\site-packages\pkg_resources"
+	".venv\Lib\site-packages\requests" [label=requests]
+	".venv\Lib\site-packages" -> ".venv\Lib\site-packages\requests"
+	".venv\Lib\site-packages\requests-2.32.3.dist-info" [label="requests-2.32.3.dist-info"]
+	".venv\Lib\site-packages" -> ".venv\Lib\site-packages\requests-2.32.3.dist-info"
+	".venv\Lib\site-packages\setuptools" [label=setuptools]
+	".venv\Lib\site-packages" -> ".venv\Lib\site-packages\setuptools"
+	".venv\Lib\site-packages\setuptools-65.5.0.dist-info" [label="setuptools-65.5.0.dist-info"]
+	".venv\Lib\site-packages" -> ".venv\Lib\site-packages\setuptools-65.5.0.dist-info"
+	".venv\Lib\site-packages\urllib3" [label=urllib3]
+	".venv\Lib\site-packages" -> ".venv\Lib\site-packages\urllib3"
+	".venv\Lib\site-packages\urllib3-2.4.0.dist-info" [label="urllib3-2.4.0.dist-info"]
+	".venv\Lib\site-packages" -> ".venv\Lib\site-packages\urllib3-2.4.0.dist-info"
+	".venv\Lib\site-packages\_distutils_hack" [label=_distutils_hack]
+	".venv\Lib\site-packages" -> ".venv\Lib\site-packages\_distutils_hack"
+	node [shape=box style=""]
+	".venv\Lib\site-packages_files_3" [label="distutils-precedence.pth\l"]
+	".venv\Lib\site-packages" -> ".venv\Lib\site-packages_files_3"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\certifi" [label="certifi (286.44 kB)\l1 Folder\l5 Files (281.77 kB)\l"]
+	".venv\Lib\site-packages\certifi\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\certifi" -> ".venv\Lib\site-packages\certifi\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\certifi_files_4" [label="cacert.pem\lcore.py\lpy.typed\l__init__.py\l__main__.py\l"]
+	".venv\Lib\site-packages\certifi" -> ".venv\Lib\site-packages\certifi_files_4"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\certifi\__pycache__" [label="__pycache__ (4.67 kB)\l3 Files (4.67 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\certifi\__pycache___files_5" [label="core.cpython-311.pyc\l__init__.cpython-311.pyc\l__main__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\certifi\__pycache__" -> ".venv\Lib\site-packages\certifi\__pycache___files_5"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\certifi-2025.4.26.dist-info" [label="certifi-2025.4.26.dist-info (4.48 kB)\l1 Folder\l5 Files (3.51 kB)\l"]
+	".venv\Lib\site-packages\certifi-2025.4.26.dist-info\licenses" [label=licenses]
+	".venv\Lib\site-packages\certifi-2025.4.26.dist-info" -> ".venv\Lib\site-packages\certifi-2025.4.26.dist-info\licenses"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\certifi-2025.4.26.dist-info_files_6" [label="INSTALLER\lMETADATA\lRECORD\ltop_level.txt\lWHEEL\l"]
+	".venv\Lib\site-packages\certifi-2025.4.26.dist-info" -> ".venv\Lib\site-packages\certifi-2025.4.26.dist-info_files_6"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\certifi-2025.4.26.dist-info\licenses" [label="licenses (989 bytes)\l1 File (989 bytes)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\certifi-2025.4.26.dist-info\licenses_files_7" [label="LICENSE\l"]
+	".venv\Lib\site-packages\certifi-2025.4.26.dist-info\licenses" -> ".venv\Lib\site-packages\certifi-2025.4.26.dist-info\licenses_files_7"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\charset_normalizer" [label="charset_normalizer (432.89 kB)\l2 Folders\l13 Files (257.7 kB)\l"]
+	".venv\Lib\site-packages\charset_normalizer\cli" [label=cli]
+	".venv\Lib\site-packages\charset_normalizer" -> ".venv\Lib\site-packages\charset_normalizer\cli"
+	".venv\Lib\site-packages\charset_normalizer\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\charset_normalizer" -> ".venv\Lib\site-packages\charset_normalizer\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\charset_normalizer_files_8" [label="api.py\lcd.py\lconstant.py\llegacy.py\lmd.cp311-win_amd64.pyd\lmd.py\lmd__mypyc.cp311-win_amd64.pyd\lmodels.py\lpy.typed\lutils.py\lversion.py\l__init__.py\l__main__.py\l"]
+	".venv\Lib\site-packages\charset_normalizer" -> ".venv\Lib\site-packages\charset_normalizer_files_8"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\charset_normalizer\cli" [label="cli (28.83 kB)\l1 Folder\l2 Files (12.86 kB)\l"]
+	".venv\Lib\site-packages\charset_normalizer\cli\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\charset_normalizer\cli" -> ".venv\Lib\site-packages\charset_normalizer\cli\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\charset_normalizer\cli_files_9" [label="__init__.py\l__main__.py\l"]
+	".venv\Lib\site-packages\charset_normalizer\cli" -> ".venv\Lib\site-packages\charset_normalizer\cli_files_9"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\charset_normalizer\cli\__pycache__" [label="__pycache__ (15.96 kB)\l2 Files (15.96 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\charset_normalizer\cli\__pycache___files_10" [label="__init__.cpython-311.pyc\l__main__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\charset_normalizer\cli\__pycache__" -> ".venv\Lib\site-packages\charset_normalizer\cli\__pycache___files_10"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\charset_normalizer\__pycache__" [label="__pycache__ (146.36 kB)\l10 Files (146.36 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\charset_normalizer\__pycache___files_11" [label="api.cpython-311.pyc\lcd.cpython-311.pyc\lconstant.cpython-311.pyc\llegacy.cpython-311.pyc\lmd.cpython-311.pyc\lmodels.cpython-311.pyc\lutils.cpython-311.pyc\lversion.cpython-311.pyc\l__init__.cpython-311.pyc\l__main__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\charset_normalizer\__pycache__" -> ".venv\Lib\site-packages\charset_normalizer\__pycache___files_11"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\charset_normalizer-3.4.2.dist-info" [label="charset_normalizer-3.4.2.dist-info (39.58 kB)\l1 Folder\l6 Files (38.51 kB)\l"]
+	".venv\Lib\site-packages\charset_normalizer-3.4.2.dist-info\licenses" [label=licenses]
+	".venv\Lib\site-packages\charset_normalizer-3.4.2.dist-info" -> ".venv\Lib\site-packages\charset_normalizer-3.4.2.dist-info\licenses"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\charset_normalizer-3.4.2.dist-info_files_12" [label="entry_points.txt\lINSTALLER\lMETADATA\lRECORD\ltop_level.txt\lWHEEL\l"]
+	".venv\Lib\site-packages\charset_normalizer-3.4.2.dist-info" -> ".venv\Lib\site-packages\charset_normalizer-3.4.2.dist-info_files_12"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\charset_normalizer-3.4.2.dist-info\licenses" [label="licenses (1.07 kB)\l1 File (1.07 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\charset_normalizer-3.4.2.dist-info\licenses_files_13" [label="LICENSE\l"]
+	".venv\Lib\site-packages\charset_normalizer-3.4.2.dist-info\licenses" -> ".venv\Lib\site-packages\charset_normalizer-3.4.2.dist-info\licenses_files_13"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\graphviz" [label="graphviz (275.92 kB)\l3 Folders\l17 Files (70.22 kB)\l"]
+	".venv\Lib\site-packages\graphviz\backend" [label=backend]
+	".venv\Lib\site-packages\graphviz" -> ".venv\Lib\site-packages\graphviz\backend"
+	".venv\Lib\site-packages\graphviz\parameters" [label=parameters]
+	".venv\Lib\site-packages\graphviz" -> ".venv\Lib\site-packages\graphviz\parameters"
+	".venv\Lib\site-packages\graphviz\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\graphviz" -> ".venv\Lib\site-packages\graphviz\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\graphviz_files_14" [label="base.py\lcopying.py\ldot.py\lencoding.py\lexceptions.py\lgraphs.py\ljupyter_integration.py\lpiping.py\lquoting.py\lrendering.py\lsaving.py\lsources.py\lunflattening.py\l_compat.py\l_defaults.py\l_tools.py\l__init__.py\l"]
+	".venv\Lib\site-packages\graphviz" -> ".venv\Lib\site-packages\graphviz_files_14"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\graphviz\backend" [label="backend (85.95 kB)\l1 Folder\l9 Files (36.94 kB)\l"]
+	".venv\Lib\site-packages\graphviz\backend\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\graphviz\backend" -> ".venv\Lib\site-packages\graphviz\backend\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\graphviz\backend_files_15" [label="dot_command.py\lexecute.py\lmixins.py\lpiping.py\lrendering.py\lunflattening.py\lupstream_version.py\lviewing.py\l__init__.py\l"]
+	".venv\Lib\site-packages\graphviz\backend" -> ".venv\Lib\site-packages\graphviz\backend_files_15"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\graphviz\backend\__pycache__" [label="__pycache__ (49.01 kB)\l9 Files (49.01 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\graphviz\backend\__pycache___files_16" [label="dot_command.cpython-311.pyc\lexecute.cpython-311.pyc\lmixins.cpython-311.pyc\lpiping.cpython-311.pyc\lrendering.cpython-311.pyc\lunflattening.cpython-311.pyc\lupstream_version.cpython-311.pyc\lviewing.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\graphviz\backend\__pycache__" -> ".venv\Lib\site-packages\graphviz\backend\__pycache___files_16"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\graphviz\parameters" [label="parameters (26.71 kB)\l1 Folder\l7 Files (10.17 kB)\l"]
+	".venv\Lib\site-packages\graphviz\parameters\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\graphviz\parameters" -> ".venv\Lib\site-packages\graphviz\parameters\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\graphviz\parameters_files_17" [label="base.py\lengines.py\lformats.py\lformatters.py\lmixins.py\lrenderers.py\l__init__.py\l"]
+	".venv\Lib\site-packages\graphviz\parameters" -> ".venv\Lib\site-packages\graphviz\parameters_files_17"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\graphviz\parameters\__pycache__" [label="__pycache__ (16.54 kB)\l7 Files (16.54 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\graphviz\parameters\__pycache___files_18" [label="base.cpython-311.pyc\lengines.cpython-311.pyc\lformats.cpython-311.pyc\lformatters.cpython-311.pyc\lmixins.cpython-311.pyc\lrenderers.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\graphviz\parameters\__pycache__" -> ".venv\Lib\site-packages\graphviz\parameters\__pycache___files_18"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\graphviz\__pycache__" [label="__pycache__ (93.03 kB)\l17 Files (93.03 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\graphviz\__pycache___files_19" [label="base.cpython-311.pyc\lcopying.cpython-311.pyc\ldot.cpython-311.pyc\lencoding.cpython-311.pyc\lexceptions.cpython-311.pyc\lgraphs.cpython-311.pyc\ljupyter_integration.cpython-311.pyc\lpiping.cpython-311.pyc\lquoting.cpython-311.pyc\lrendering.cpython-311.pyc\lsaving.cpython-311.pyc\lsources.cpython-311.pyc\lunflattening.cpython-311.pyc\l_compat.cpython-311.pyc\l_defaults.cpython-311.pyc\l_tools.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\graphviz\__pycache__" -> ".venv\Lib\site-packages\graphviz\__pycache___files_19"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\graphviz-0.20.3.dist-info" [label="graphviz-0.20.3.dist-info (18.28 kB)\l7 Files (18.28 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\graphviz-0.20.3.dist-info_files_20" [label="INSTALLER\lLICENSE.txt\lMETADATA\lRECORD\lREQUESTED\ltop_level.txt\lWHEEL\l"]
+	".venv\Lib\site-packages\graphviz-0.20.3.dist-info" -> ".venv\Lib\site-packages\graphviz-0.20.3.dist-info_files_20"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\idna" [label="idna (617.48 kB)\l1 Folder\l9 Files (329.45 kB)\l"]
+	".venv\Lib\site-packages\idna\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\idna" -> ".venv\Lib\site-packages\idna\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\idna_files_21" [label="codec.py\lcompat.py\lcore.py\lidnadata.py\lintranges.py\lpackage_data.py\lpy.typed\luts46data.py\l__init__.py\l"]
+	".venv\Lib\site-packages\idna" -> ".venv\Lib\site-packages\idna_files_21"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\idna\__pycache__" [label="__pycache__ (288.03 kB)\l8 Files (288.03 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\idna\__pycache___files_22" [label="codec.cpython-311.pyc\lcompat.cpython-311.pyc\lcore.cpython-311.pyc\lidnadata.cpython-311.pyc\lintranges.cpython-311.pyc\lpackage_data.cpython-311.pyc\luts46data.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\idna\__pycache__" -> ".venv\Lib\site-packages\idna\__pycache___files_22"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\idna-3.10.dist-info" [label="idna-3.10.dist-info (12.86 kB)\l5 Files (12.86 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\idna-3.10.dist-info_files_23" [label="INSTALLER\lLICENSE.md\lMETADATA\lRECORD\lWHEEL\l"]
+	".venv\Lib\site-packages\idna-3.10.dist-info" -> ".venv\Lib\site-packages\idna-3.10.dist-info_files_23"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip" [label="pip (10.88 MB)\l3 Folders\l4 Files (2.88 kB)\l"]
+	".venv\Lib\site-packages\pip\_internal" [label=_internal]
+	".venv\Lib\site-packages\pip" -> ".venv\Lib\site-packages\pip\_internal"
+	".venv\Lib\site-packages\pip\_vendor" [label=_vendor]
+	".venv\Lib\site-packages\pip" -> ".venv\Lib\site-packages\pip\_vendor"
+	".venv\Lib\site-packages\pip\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip" -> ".venv\Lib\site-packages\pip\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip_files_24" [label="py.typed\l__init__.py\l__main__.py\l__pip-runner__.py\l"]
+	".venv\Lib\site-packages\pip" -> ".venv\Lib\site-packages\pip_files_24"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal" [label="_internal (2.5 MB)\l14 Folders\l9 Files (89.29 kB)\l"]
+	".venv\Lib\site-packages\pip\_internal\cli" [label=cli]
+	".venv\Lib\site-packages\pip\_internal" -> ".venv\Lib\site-packages\pip\_internal\cli"
+	".venv\Lib\site-packages\pip\_internal\commands" [label=commands]
+	".venv\Lib\site-packages\pip\_internal" -> ".venv\Lib\site-packages\pip\_internal\commands"
+	".venv\Lib\site-packages\pip\_internal\distributions" [label=distributions]
+	".venv\Lib\site-packages\pip\_internal" -> ".venv\Lib\site-packages\pip\_internal\distributions"
+	".venv\Lib\site-packages\pip\_internal\index" [label=index]
+	".venv\Lib\site-packages\pip\_internal" -> ".venv\Lib\site-packages\pip\_internal\index"
+	".venv\Lib\site-packages\pip\_internal\locations" [label=locations]
+	".venv\Lib\site-packages\pip\_internal" -> ".venv\Lib\site-packages\pip\_internal\locations"
+	".venv\Lib\site-packages\pip\_internal\metadata" [label=metadata]
+	".venv\Lib\site-packages\pip\_internal" -> ".venv\Lib\site-packages\pip\_internal\metadata"
+	".venv\Lib\site-packages\pip\_internal\models" [label=models]
+	".venv\Lib\site-packages\pip\_internal" -> ".venv\Lib\site-packages\pip\_internal\models"
+	".venv\Lib\site-packages\pip\_internal\network" [label=network]
+	".venv\Lib\site-packages\pip\_internal" -> ".venv\Lib\site-packages\pip\_internal\network"
+	".venv\Lib\site-packages\pip\_internal\operations" [label=operations]
+	".venv\Lib\site-packages\pip\_internal" -> ".venv\Lib\site-packages\pip\_internal\operations"
+	".venv\Lib\site-packages\pip\_internal\req" [label=req]
+	".venv\Lib\site-packages\pip\_internal" -> ".venv\Lib\site-packages\pip\_internal\req"
+	".venv\Lib\site-packages\pip\_internal\resolution" [label=resolution]
+	".venv\Lib\site-packages\pip\_internal" -> ".venv\Lib\site-packages\pip\_internal\resolution"
+	".venv\Lib\site-packages\pip\_internal\utils" [label=utils]
+	".venv\Lib\site-packages\pip\_internal" -> ".venv\Lib\site-packages\pip\_internal\utils"
+	".venv\Lib\site-packages\pip\_internal\vcs" [label=vcs]
+	".venv\Lib\site-packages\pip\_internal" -> ".venv\Lib\site-packages\pip\_internal\vcs"
+	".venv\Lib\site-packages\pip\_internal\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_internal" -> ".venv\Lib\site-packages\pip\_internal\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal_files_25" [label="build_env.py\lcache.py\lconfiguration.py\lexceptions.py\lmain.py\lpyproject.py\lself_outdated_check.py\lwheel_builder.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_internal" -> ".venv\Lib\site-packages\pip\_internal_files_25"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\cli" [label="cli (212.32 kB)\l1 Folder\l13 Files (92.12 kB)\l"]
+	".venv\Lib\site-packages\pip\_internal\cli\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_internal\cli" -> ".venv\Lib\site-packages\pip\_internal\cli\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\cli_files_26" [label="autocompletion.py\lbase_command.py\lcmdoptions.py\lcommand_context.py\lindex_command.py\lmain.py\lmain_parser.py\lparser.py\lprogress_bars.py\lreq_command.py\lspinners.py\lstatus_codes.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_internal\cli" -> ".venv\Lib\site-packages\pip\_internal\cli_files_26"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\cli\__pycache__" [label="__pycache__ (120.2 kB)\l13 Files (120.2 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\cli\__pycache___files_27" [label="autocompletion.cpython-311.pyc\lbase_command.cpython-311.pyc\lcmdoptions.cpython-311.pyc\lcommand_context.cpython-311.pyc\lindex_command.cpython-311.pyc\lmain.cpython-311.pyc\lmain_parser.cpython-311.pyc\lparser.cpython-311.pyc\lprogress_bars.cpython-311.pyc\lreq_command.cpython-311.pyc\lspinners.cpython-311.pyc\lstatus_codes.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_internal\cli\__pycache__" -> ".venv\Lib\site-packages\pip\_internal\cli\__pycache___files_27"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\commands" [label="commands (298.48 kB)\l1 Folder\l19 Files (125.03 kB)\l"]
+	".venv\Lib\site-packages\pip\_internal\commands\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_internal\commands" -> ".venv\Lib\site-packages\pip\_internal\commands\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\commands_files_28" [label="cache.py\lcheck.py\lcompletion.py\lconfiguration.py\ldebug.py\ldownload.py\lfreeze.py\lhash.py\lhelp.py\lindex.py\linspect.py\linstall.py\llist.py\llock.py\lsearch.py\lshow.py\luninstall.py\lwheel.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_internal\commands" -> ".venv\Lib\site-packages\pip\_internal\commands_files_28"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\commands\__pycache__" [label="__pycache__ (173.45 kB)\l19 Files (173.45 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\commands\__pycache___files_29" [label="cache.cpython-311.pyc\lcheck.cpython-311.pyc\lcompletion.cpython-311.pyc\lconfiguration.cpython-311.pyc\ldebug.cpython-311.pyc\ldownload.cpython-311.pyc\lfreeze.cpython-311.pyc\lhash.cpython-311.pyc\lhelp.cpython-311.pyc\lindex.cpython-311.pyc\linspect.cpython-311.pyc\linstall.cpython-311.pyc\llist.cpython-311.pyc\llock.cpython-311.pyc\lsearch.cpython-311.pyc\lshow.cpython-311.pyc\luninstall.cpython-311.pyc\lwheel.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_internal\commands\__pycache__" -> ".venv\Lib\site-packages\pip\_internal\commands\__pycache___files_29"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\distributions" [label="distributions (28.73 kB)\l1 Folder\l5 Files (11.28 kB)\l"]
+	".venv\Lib\site-packages\pip\_internal\distributions\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_internal\distributions" -> ".venv\Lib\site-packages\pip\_internal\distributions\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\distributions_files_30" [label="base.py\linstalled.py\lsdist.py\lwheel.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_internal\distributions" -> ".venv\Lib\site-packages\pip\_internal\distributions_files_30"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\distributions\__pycache__" [label="__pycache__ (17.45 kB)\l5 Files (17.45 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\distributions\__pycache___files_31" [label="base.cpython-311.pyc\linstalled.cpython-311.pyc\lsdist.cpython-311.pyc\lwheel.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_internal\distributions\__pycache__" -> ".venv\Lib\site-packages\pip\_internal\distributions\__pycache___files_31"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\index" [label="index (142.99 kB)\l1 Folder\l4 Files (61.89 kB)\l"]
+	".venv\Lib\site-packages\pip\_internal\index\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_internal\index" -> ".venv\Lib\site-packages\pip\_internal\index\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\index_files_32" [label="collector.py\lpackage_finder.py\lsources.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_internal\index" -> ".venv\Lib\site-packages\pip\_internal\index_files_32"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\index\__pycache__" [label="__pycache__ (81.1 kB)\l4 Files (81.1 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\index\__pycache___files_33" [label="collector.cpython-311.pyc\lpackage_finder.cpython-311.pyc\lsources.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_internal\index\__pycache__" -> ".venv\Lib\site-packages\pip\_internal\index\__pycache___files_33"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\locations" [label="locations (66.37 kB)\l1 Folder\l4 Files (29.88 kB)\l"]
+	".venv\Lib\site-packages\pip\_internal\locations\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_internal\locations" -> ".venv\Lib\site-packages\pip\_internal\locations\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\locations_files_34" [label="base.py\l_distutils.py\l_sysconfig.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_internal\locations" -> ".venv\Lib\site-packages\pip\_internal\locations_files_34"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\locations\__pycache__" [label="__pycache__ (36.49 kB)\l4 Files (36.49 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\locations\__pycache___files_35" [label="base.cpython-311.pyc\l_distutils.cpython-311.pyc\l_sysconfig.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_internal\locations\__pycache__" -> ".venv\Lib\site-packages\pip\_internal\locations\__pycache___files_35"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\metadata" [label="metadata (153.5 kB)\l2 Folders\l4 Files (43.4 kB)\l"]
+	".venv\Lib\site-packages\pip\_internal\metadata\importlib" [label=importlib]
+	".venv\Lib\site-packages\pip\_internal\metadata" -> ".venv\Lib\site-packages\pip\_internal\metadata\importlib"
+	".venv\Lib\site-packages\pip\_internal\metadata\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_internal\metadata" -> ".venv\Lib\site-packages\pip\_internal\metadata\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\metadata_files_36" [label="base.py\lpkg_resources.py\l_json.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_internal\metadata" -> ".venv\Lib\site-packages\pip\_internal\metadata_files_36"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\metadata\importlib" [label="importlib (44.24 kB)\l1 Folder\l4 Files (16.12 kB)\l"]
+	".venv\Lib\site-packages\pip\_internal\metadata\importlib\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_internal\metadata\importlib" -> ".venv\Lib\site-packages\pip\_internal\metadata\importlib\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\metadata\importlib_files_37" [label="_compat.py\l_dists.py\l_envs.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_internal\metadata\importlib" -> ".venv\Lib\site-packages\pip\_internal\metadata\importlib_files_37"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\metadata\importlib\__pycache__" [label="__pycache__ (28.12 kB)\l4 Files (28.12 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\metadata\importlib\__pycache___files_38" [label="_compat.cpython-311.pyc\l_dists.cpython-311.pyc\l_envs.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_internal\metadata\importlib\__pycache__" -> ".venv\Lib\site-packages\pip\_internal\metadata\importlib\__pycache___files_38"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\metadata\__pycache__" [label="__pycache__ (65.86 kB)\l4 Files (65.86 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\metadata\__pycache___files_39" [label="base.cpython-311.pyc\lpkg_resources.cpython-311.pyc\l_json.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_internal\metadata\__pycache__" -> ".venv\Lib\site-packages\pip\_internal\metadata\__pycache___files_39"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\models" [label="models (139.74 kB)\l1 Folder\l13 Files (56.96 kB)\l"]
+	".venv\Lib\site-packages\pip\_internal\models\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_internal\models" -> ".venv\Lib\site-packages\pip\_internal\models\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\models_files_40" [label="candidate.py\ldirect_url.py\lformat_control.py\lindex.py\linstallation_report.py\llink.py\lpylock.py\lscheme.py\lsearch_scope.py\lselection_prefs.py\ltarget_python.py\lwheel.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_internal\models" -> ".venv\Lib\site-packages\pip\_internal\models_files_40"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\models\__pycache__" [label="__pycache__ (82.77 kB)\l13 Files (82.77 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\models\__pycache___files_41" [label="candidate.cpython-311.pyc\ldirect_url.cpython-311.pyc\lformat_control.cpython-311.pyc\lindex.cpython-311.pyc\linstallation_report.cpython-311.pyc\llink.cpython-311.pyc\lpylock.cpython-311.pyc\lscheme.cpython-311.pyc\lsearch_scope.cpython-311.pyc\lselection_prefs.cpython-311.pyc\ltarget_python.cpython-311.pyc\lwheel.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_internal\models\__pycache__" -> ".venv\Lib\site-packages\pip\_internal\models\__pycache___files_41"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\network" [label="network (152.41 kB)\l1 Folder\l8 Files (67.25 kB)\l"]
+	".venv\Lib\site-packages\pip\_internal\network\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_internal\network" -> ".venv\Lib\site-packages\pip\_internal\network\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\network_files_42" [label="auth.py\lcache.py\ldownload.py\llazy_wheel.py\lsession.py\lutils.py\lxmlrpc.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_internal\network" -> ".venv\Lib\site-packages\pip\_internal\network_files_42"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\network\__pycache__" [label="__pycache__ (85.16 kB)\l8 Files (85.16 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\network\__pycache___files_43" [label="auth.cpython-311.pyc\lcache.cpython-311.pyc\ldownload.cpython-311.pyc\llazy_wheel.cpython-311.pyc\lsession.cpython-311.pyc\lutils.cpython-311.pyc\lxmlrpc.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_internal\network\__pycache__" -> ".venv\Lib\site-packages\pip\_internal\network\__pycache___files_43"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\operations" [label="operations (201.9 kB)\l3 Folders\l4 Files (43.08 kB)\l"]
+	".venv\Lib\site-packages\pip\_internal\operations\build" [label=build]
+	".venv\Lib\site-packages\pip\_internal\operations" -> ".venv\Lib\site-packages\pip\_internal\operations\build"
+	".venv\Lib\site-packages\pip\_internal\operations\install" [label=install]
+	".venv\Lib\site-packages\pip\_internal\operations" -> ".venv\Lib\site-packages\pip\_internal\operations\install"
+	".venv\Lib\site-packages\pip\_internal\operations\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_internal\operations" -> ".venv\Lib\site-packages\pip\_internal\operations\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\operations_files_44" [label="check.py\lfreeze.py\lprepare.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_internal\operations" -> ".venv\Lib\site-packages\pip\_internal\operations_files_44"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\operations\build" [label="build (41.53 kB)\l1 Folder\l8 Files (15.63 kB)\l"]
+	".venv\Lib\site-packages\pip\_internal\operations\build\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_internal\operations\build" -> ".venv\Lib\site-packages\pip\_internal\operations\build\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\operations\build_files_45" [label="build_tracker.py\lmetadata.py\lmetadata_editable.py\lmetadata_legacy.py\lwheel.py\lwheel_editable.py\lwheel_legacy.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_internal\operations\build" -> ".venv\Lib\site-packages\pip\_internal\operations\build_files_45"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\operations\build\__pycache__" [label="__pycache__ (25.9 kB)\l8 Files (25.9 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\operations\build\__pycache___files_46" [label="build_tracker.cpython-311.pyc\lmetadata.cpython-311.pyc\lmetadata_editable.cpython-311.pyc\lmetadata_legacy.cpython-311.pyc\lwheel.cpython-311.pyc\lwheel_editable.cpython-311.pyc\lwheel_legacy.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_internal\operations\build\__pycache__" -> ".venv\Lib\site-packages\pip\_internal\operations\build\__pycache___files_46"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\operations\install" [label="install (70.14 kB)\l1 Folder\l3 Files (28.21 kB)\l"]
+	".venv\Lib\site-packages\pip\_internal\operations\install\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_internal\operations\install" -> ".venv\Lib\site-packages\pip\_internal\operations\install\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\operations\install_files_47" [label="editable_legacy.py\lwheel.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_internal\operations\install" -> ".venv\Lib\site-packages\pip\_internal\operations\install_files_47"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\operations\install\__pycache__" [label="__pycache__ (41.93 kB)\l3 Files (41.93 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\operations\install\__pycache___files_48" [label="editable_legacy.cpython-311.pyc\lwheel.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_internal\operations\install\__pycache__" -> ".venv\Lib\site-packages\pip\_internal\operations\install\__pycache___files_48"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\operations\__pycache__" [label="__pycache__ (47.15 kB)\l4 Files (47.15 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\operations\__pycache___files_49" [label="check.cpython-311.pyc\lfreeze.cpython-311.pyc\lprepare.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_internal\operations\__pycache__" -> ".venv\Lib\site-packages\pip\_internal\operations\__pycache___files_49"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\req" [label="req (243.03 kB)\l1 Folder\l7 Files (104.65 kB)\l"]
+	".venv\Lib\site-packages\pip\_internal\req\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_internal\req" -> ".venv\Lib\site-packages\pip\_internal\req\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\req_files_50" [label="constructors.py\lreq_dependency_group.py\lreq_file.py\lreq_install.py\lreq_set.py\lreq_uninstall.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_internal\req" -> ".venv\Lib\site-packages\pip\_internal\req_files_50"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\req\__pycache__" [label="__pycache__ (138.39 kB)\l7 Files (138.39 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\req\__pycache___files_51" [label="constructors.cpython-311.pyc\lreq_dependency_group.cpython-311.pyc\lreq_file.cpython-311.pyc\lreq_install.cpython-311.pyc\lreq_set.cpython-311.pyc\lreq_uninstall.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_internal\req\__pycache__" -> ".venv\Lib\site-packages\pip\_internal\req\__pycache___files_51"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\resolution" [label="resolution (274.22 kB)\l3 Folders\l2 Files (583 bytes)\l"]
+	".venv\Lib\site-packages\pip\_internal\resolution\legacy" [label=legacy]
+	".venv\Lib\site-packages\pip\_internal\resolution" -> ".venv\Lib\site-packages\pip\_internal\resolution\legacy"
+	".venv\Lib\site-packages\pip\_internal\resolution\resolvelib" [label=resolvelib]
+	".venv\Lib\site-packages\pip\_internal\resolution" -> ".venv\Lib\site-packages\pip\_internal\resolution\resolvelib"
+	".venv\Lib\site-packages\pip\_internal\resolution\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_internal\resolution" -> ".venv\Lib\site-packages\pip\_internal\resolution\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\resolution_files_52" [label="base.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_internal\resolution" -> ".venv\Lib\site-packages\pip\_internal\resolution_files_52"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\resolution\legacy" [label="legacy (46.97 kB)\l1 Folder\l2 Files (23.5 kB)\l"]
+	".venv\Lib\site-packages\pip\_internal\resolution\legacy\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_internal\resolution\legacy" -> ".venv\Lib\site-packages\pip\_internal\resolution\legacy\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\resolution\legacy_files_53" [label="resolver.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_internal\resolution\legacy" -> ".venv\Lib\site-packages\pip\_internal\resolution\legacy_files_53"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\resolution\legacy\__pycache__" [label="__pycache__ (23.47 kB)\l2 Files (23.47 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\resolution\legacy\__pycache___files_54" [label="resolver.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_internal\resolution\legacy\__pycache__" -> ".venv\Lib\site-packages\pip\_internal\resolution\legacy\__pycache___files_54"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\resolution\resolvelib" [label="resolvelib (225.15 kB)\l1 Folder\l9 Files (96.91 kB)\l"]
+	".venv\Lib\site-packages\pip\_internal\resolution\resolvelib\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_internal\resolution\resolvelib" -> ".venv\Lib\site-packages\pip\_internal\resolution\resolvelib\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\resolution\resolvelib_files_55" [label="base.py\lcandidates.py\lfactory.py\lfound_candidates.py\lprovider.py\lreporter.py\lrequirements.py\lresolver.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_internal\resolution\resolvelib" -> ".venv\Lib\site-packages\pip\_internal\resolution\resolvelib_files_55"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\resolution\resolvelib\__pycache__" [label="__pycache__ (128.25 kB)\l9 Files (128.25 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\resolution\resolvelib\__pycache___files_56" [label="base.cpython-311.pyc\lcandidates.cpython-311.pyc\lfactory.cpython-311.pyc\lfound_candidates.cpython-311.pyc\lprovider.cpython-311.pyc\lreporter.cpython-311.pyc\lrequirements.cpython-311.pyc\lresolver.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_internal\resolution\resolvelib\__pycache__" -> ".venv\Lib\site-packages\pip\_internal\resolution\resolvelib\__pycache___files_56"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\resolution\__pycache__" [label="__pycache__ (1.53 kB)\l2 Files (1.53 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\resolution\__pycache___files_57" [label="base.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_internal\resolution\__pycache__" -> ".venv\Lib\site-packages\pip\_internal\resolution\__pycache___files_57"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\utils" [label="utils (292.99 kB)\l1 Folder\l26 Files (122.27 kB)\l"]
+	".venv\Lib\site-packages\pip\_internal\utils\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_internal\utils" -> ".venv\Lib\site-packages\pip\_internal\utils\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\utils_files_58" [label="appdirs.py\lcompat.py\lcompatibility_tags.py\ldatetime.py\ldeprecation.py\ldirect_url_helpers.py\legg_link.py\lentrypoints.py\lfilesystem.py\lfiletypes.py\lglibc.py\lhashes.py\llogging.py\lmisc.py\lpackaging.py\lretry.py\lsetuptools_build.py\lsubprocess.py\ltemp_dir.py\lunpacking.py\lurls.py\lvirtualenv.py\lwheel.py\l_jaraco_text.py\l_log.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_internal\utils" -> ".venv\Lib\site-packages\pip\_internal\utils_files_58"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\utils\__pycache__" [label="__pycache__ (170.72 kB)\l26 Files (170.72 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\utils\__pycache___files_59" [label="appdirs.cpython-311.pyc\lcompat.cpython-311.pyc\lcompatibility_tags.cpython-311.pyc\ldatetime.cpython-311.pyc\ldeprecation.cpython-311.pyc\ldirect_url_helpers.cpython-311.pyc\legg_link.cpython-311.pyc\lentrypoints.cpython-311.pyc\lfilesystem.cpython-311.pyc\lfiletypes.cpython-311.pyc\lglibc.cpython-311.pyc\lhashes.cpython-311.pyc\llogging.cpython-311.pyc\lmisc.cpython-311.pyc\lpackaging.cpython-311.pyc\lretry.cpython-311.pyc\lsetuptools_build.cpython-311.pyc\lsubprocess.cpython-311.pyc\ltemp_dir.cpython-311.pyc\lunpacking.cpython-311.pyc\lurls.cpython-311.pyc\lvirtualenv.cpython-311.pyc\lwheel.cpython-311.pyc\l_jaraco_text.cpython-311.pyc\l_log.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_internal\utils\__pycache__" -> ".venv\Lib\site-packages\pip\_internal\utils\__pycache___files_59"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\vcs" [label="vcs (142.47 kB)\l1 Folder\l6 Files (60.68 kB)\l"]
+	".venv\Lib\site-packages\pip\_internal\vcs\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_internal\vcs" -> ".venv\Lib\site-packages\pip\_internal\vcs\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\vcs_files_60" [label="bazaar.py\lgit.py\lmercurial.py\lsubversion.py\lversioncontrol.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_internal\vcs" -> ".venv\Lib\site-packages\pip\_internal\vcs_files_60"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\vcs\__pycache__" [label="__pycache__ (81.79 kB)\l6 Files (81.79 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\vcs\__pycache___files_61" [label="bazaar.cpython-311.pyc\lgit.cpython-311.pyc\lmercurial.cpython-311.pyc\lsubversion.cpython-311.pyc\lversioncontrol.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_internal\vcs\__pycache__" -> ".venv\Lib\site-packages\pip\_internal\vcs\__pycache___files_61"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_internal\__pycache__" [label="__pycache__ (125.75 kB)\l9 Files (125.75 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_internal\__pycache___files_62" [label="build_env.cpython-311.pyc\lcache.cpython-311.pyc\lconfiguration.cpython-311.pyc\lexceptions.cpython-311.pyc\lmain.cpython-311.pyc\lpyproject.cpython-311.pyc\lself_outdated_check.cpython-311.pyc\lwheel_builder.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_internal\__pycache__" -> ".venv\Lib\site-packages\pip\_internal\__pycache___files_62"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor" [label="_vendor (8.37 MB)\l20 Folders\l3 Files (173.81 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\cachecontrol" [label=cachecontrol]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor\cachecontrol"
+	".venv\Lib\site-packages\pip\_vendor\certifi" [label=certifi]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor\certifi"
+	".venv\Lib\site-packages\pip\_vendor\dependency_groups" [label=dependency_groups]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor\dependency_groups"
+	".venv\Lib\site-packages\pip\_vendor\distlib" [label=distlib]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor\distlib"
+	".venv\Lib\site-packages\pip\_vendor\distro" [label=distro]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor\distro"
+	".venv\Lib\site-packages\pip\_vendor\idna" [label=idna]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor\idna"
+	".venv\Lib\site-packages\pip\_vendor\msgpack" [label=msgpack]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor\msgpack"
+	".venv\Lib\site-packages\pip\_vendor\packaging" [label=packaging]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor\packaging"
+	".venv\Lib\site-packages\pip\_vendor\pkg_resources" [label=pkg_resources]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor\pkg_resources"
+	".venv\Lib\site-packages\pip\_vendor\platformdirs" [label=platformdirs]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor\platformdirs"
+	".venv\Lib\site-packages\pip\_vendor\pygments" [label=pygments]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor\pygments"
+	".venv\Lib\site-packages\pip\_vendor\pyproject_hooks" [label=pyproject_hooks]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor\pyproject_hooks"
+	".venv\Lib\site-packages\pip\_vendor\requests" [label=requests]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor\requests"
+	".venv\Lib\site-packages\pip\_vendor\resolvelib" [label=resolvelib]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor\resolvelib"
+	".venv\Lib\site-packages\pip\_vendor\rich" [label=rich]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor\rich"
+	".venv\Lib\site-packages\pip\_vendor\tomli" [label=tomli]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor\tomli"
+	".venv\Lib\site-packages\pip\_vendor\tomli_w" [label=tomli_w]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor\tomli_w"
+	".venv\Lib\site-packages\pip\_vendor\truststore" [label=truststore]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor\truststore"
+	".venv\Lib\site-packages\pip\_vendor\urllib3" [label=urllib3]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor\urllib3"
+	".venv\Lib\site-packages\pip\_vendor\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor_files_63" [label="typing_extensions.py\lvendor.txt\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor" -> ".venv\Lib\site-packages\pip\_vendor_files_63"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\cachecontrol" [label="cachecontrol (114.9 kB)\l2 Folders\l10 Files (44.75 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\cachecontrol\caches" [label=caches]
+	".venv\Lib\site-packages\pip\_vendor\cachecontrol" -> ".venv\Lib\site-packages\pip\_vendor\cachecontrol\caches"
+	".venv\Lib\site-packages\pip\_vendor\cachecontrol\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\cachecontrol" -> ".venv\Lib\site-packages\pip\_vendor\cachecontrol\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\cachecontrol_files_64" [label="adapter.py\lcache.py\lcontroller.py\lfilewrapper.py\lheuristics.py\lpy.typed\lserialize.py\lwrapper.py\l_cmd.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\cachecontrol" -> ".venv\Lib\site-packages\pip\_vendor\cachecontrol_files_64"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\cachecontrol\caches" [label="caches (17.14 kB)\l1 Folder\l3 Files (5.67 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\cachecontrol\caches\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\cachecontrol\caches" -> ".venv\Lib\site-packages\pip\_vendor\cachecontrol\caches\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\cachecontrol\caches_files_65" [label="file_cache.py\lredis_cache.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\cachecontrol\caches" -> ".venv\Lib\site-packages\pip\_vendor\cachecontrol\caches_files_65"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\cachecontrol\caches\__pycache__" [label="__pycache__ (11.47 kB)\l3 Files (11.47 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\cachecontrol\caches\__pycache___files_66" [label="file_cache.cpython-311.pyc\lredis_cache.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\cachecontrol\caches\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\cachecontrol\caches\__pycache___files_66"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\cachecontrol\__pycache__" [label="__pycache__ (53.01 kB)\l9 Files (53.01 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\cachecontrol\__pycache___files_67" [label="adapter.cpython-311.pyc\lcache.cpython-311.pyc\lcontroller.cpython-311.pyc\lfilewrapper.cpython-311.pyc\lheuristics.cpython-311.pyc\lserialize.cpython-311.pyc\lwrapper.cpython-311.pyc\l_cmd.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\cachecontrol\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\cachecontrol\__pycache___files_67"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\certifi" [label="certifi (299.74 kB)\l1 Folder\l5 Files (295.01 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\certifi\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\certifi" -> ".venv\Lib\site-packages\pip\_vendor\certifi\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\certifi_files_68" [label="cacert.pem\lcore.py\lpy.typed\l__init__.py\l__main__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\certifi" -> ".venv\Lib\site-packages\pip\_vendor\certifi_files_68"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\certifi\__pycache__" [label="__pycache__ (4.73 kB)\l3 Files (4.73 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\certifi\__pycache___files_69" [label="core.cpython-311.pyc\l__init__.cpython-311.pyc\l__main__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\certifi\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\certifi\__pycache___files_69"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\dependency_groups" [label="dependency_groups (35.02 kB)\l1 Folder\l7 Files (13.54 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\dependency_groups\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\dependency_groups" -> ".venv\Lib\site-packages\pip\_vendor\dependency_groups\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\dependency_groups_files_70" [label="py.typed\l_implementation.py\l_lint_dependency_groups.py\l_pip_wrapper.py\l_toml_compat.py\l__init__.py\l__main__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\dependency_groups" -> ".venv\Lib\site-packages\pip\_vendor\dependency_groups_files_70"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\dependency_groups\__pycache__" [label="__pycache__ (21.49 kB)\l6 Files (21.49 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\dependency_groups\__pycache___files_71" [label="_implementation.cpython-311.pyc\l_lint_dependency_groups.cpython-311.pyc\l_pip_wrapper.cpython-311.pyc\l_toml_compat.cpython-311.pyc\l__init__.cpython-311.pyc\l__main__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\dependency_groups\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\dependency_groups\__pycache___files_71"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\distlib" [label="distlib (1.59 MB)\l1 Folder\l19 Files (1.08 MB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\distlib\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\distlib" -> ".venv\Lib\site-packages\pip\_vendor\distlib\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\distlib_files_72" [label="compat.py\ldatabase.py\lindex.py\llocators.py\lmanifest.py\lmarkers.py\lmetadata.py\lresources.py\lscripts.py\lt32.exe\lt64-arm.exe\lt64.exe\lutil.py\lversion.py\lw32.exe\lw64-arm.exe\lw64.exe\lwheel.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\distlib" -> ".venv\Lib\site-packages\pip\_vendor\distlib_files_72"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\distlib\__pycache__" [label="__pycache__ (512.9 kB)\l13 Files (512.9 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\distlib\__pycache___files_73" [label="compat.cpython-311.pyc\ldatabase.cpython-311.pyc\lindex.cpython-311.pyc\llocators.cpython-311.pyc\lmanifest.cpython-311.pyc\lmarkers.cpython-311.pyc\lmetadata.cpython-311.pyc\lresources.cpython-311.pyc\lscripts.cpython-311.pyc\lutil.cpython-311.pyc\lversion.cpython-311.pyc\lwheel.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\distlib\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\distlib\__pycache___files_73"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\distro" [label="distro (107.23 kB)\l1 Folder\l4 Files (49.29 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\distro\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\distro" -> ".venv\Lib\site-packages\pip\_vendor\distro\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\distro_files_74" [label="distro.py\lpy.typed\l__init__.py\l__main__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\distro" -> ".venv\Lib\site-packages\pip\_vendor\distro_files_74"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\distro\__pycache__" [label="__pycache__ (57.93 kB)\l3 Files (57.93 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\distro\__pycache___files_75" [label="distro.cpython-311.pyc\l__init__.cpython-311.pyc\l__main__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\distro\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\distro\__pycache___files_75"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\idna" [label="idna (617.58 kB)\l1 Folder\l9 Files (329.45 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\idna\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\idna" -> ".venv\Lib\site-packages\pip\_vendor\idna\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\idna_files_76" [label="codec.py\lcompat.py\lcore.py\lidnadata.py\lintranges.py\lpackage_data.py\lpy.typed\luts46data.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\idna" -> ".venv\Lib\site-packages\pip\_vendor\idna_files_76"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\idna\__pycache__" [label="__pycache__ (288.13 kB)\l8 Files (288.13 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\idna\__pycache___files_77" [label="codec.cpython-311.pyc\lcompat.cpython-311.pyc\lcore.cpython-311.pyc\lidnadata.cpython-311.pyc\lintranges.cpython-311.pyc\lpackage_data.cpython-311.pyc\luts46data.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\idna\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\idna\__pycache___files_77"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\msgpack" [label="msgpack (95.83 kB)\l1 Folder\l4 Files (39.36 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\msgpack\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\msgpack" -> ".venv\Lib\site-packages\pip\_vendor\msgpack\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\msgpack_files_78" [label="exceptions.py\lext.py\lfallback.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\msgpack" -> ".venv\Lib\site-packages\pip\_vendor\msgpack_files_78"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\msgpack\__pycache__" [label="__pycache__ (56.47 kB)\l4 Files (56.47 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\msgpack\__pycache___files_79" [label="exceptions.cpython-311.pyc\lext.cpython-311.pyc\lfallback.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\msgpack\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\msgpack\__pycache___files_79"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\packaging" [label="packaging (465.58 kB)\l2 Folders\l15 Files (163.41 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\packaging\licenses" [label=licenses]
+	".venv\Lib\site-packages\pip\_vendor\packaging" -> ".venv\Lib\site-packages\pip\_vendor\packaging\licenses"
+	".venv\Lib\site-packages\pip\_vendor\packaging\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\packaging" -> ".venv\Lib\site-packages\pip\_vendor\packaging\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\packaging_files_80" [label="markers.py\lmetadata.py\lpy.typed\lrequirements.py\lspecifiers.py\ltags.py\lutils.py\lversion.py\l_elffile.py\l_manylinux.py\l_musllinux.py\l_parser.py\l_structures.py\l_tokenizer.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\packaging" -> ".venv\Lib\site-packages\pip\_vendor\packaging_files_80"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\packaging\licenses" [label="licenses (106.87 kB)\l1 Folder\l2 Files (52.86 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\packaging\licenses\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\packaging\licenses" -> ".venv\Lib\site-packages\pip\_vendor\packaging\licenses\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\packaging\licenses_files_81" [label="_spdx.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\packaging\licenses" -> ".venv\Lib\site-packages\pip\_vendor\packaging\licenses_files_81"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\packaging\licenses\__pycache__" [label="__pycache__ (54.01 kB)\l2 Files (54.01 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\packaging\licenses\__pycache___files_82" [label="_spdx.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\packaging\licenses\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\packaging\licenses\__pycache___files_82"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\packaging\__pycache__" [label="__pycache__ (195.3 kB)\l14 Files (195.3 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\packaging\__pycache___files_83" [label="markers.cpython-311.pyc\lmetadata.cpython-311.pyc\lrequirements.cpython-311.pyc\lspecifiers.cpython-311.pyc\ltags.cpython-311.pyc\lutils.cpython-311.pyc\lversion.cpython-311.pyc\l_elffile.cpython-311.pyc\l_manylinux.cpython-311.pyc\l_musllinux.cpython-311.pyc\l_parser.cpython-311.pyc\l_structures.cpython-311.pyc\l_tokenizer.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\packaging\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\packaging\__pycache___files_83"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\pkg_resources" [label="pkg_resources (294.24 kB)\l1 Folder\l1 File (121.55 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\pkg_resources\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\pkg_resources" -> ".venv\Lib\site-packages\pip\_vendor\pkg_resources\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\pkg_resources_files_84" [label="__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\pkg_resources" -> ".venv\Lib\site-packages\pip\_vendor\pkg_resources_files_84"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\pkg_resources\__pycache__" [label="__pycache__ (172.69 kB)\l1 File (172.69 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\pkg_resources\__pycache___files_85" [label="__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\pkg_resources\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\pkg_resources\__pycache___files_85"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\platformdirs" [label="platformdirs (154.7 kB)\l1 Folder\l9 Files (67.76 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\platformdirs\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\platformdirs" -> ".venv\Lib\site-packages\pip\_vendor\platformdirs\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\platformdirs_files_86" [label="android.py\lapi.py\lmacos.py\lpy.typed\lunix.py\lversion.py\lwindows.py\l__init__.py\l__main__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\platformdirs" -> ".venv\Lib\site-packages\pip\_vendor\platformdirs_files_86"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\platformdirs\__pycache__" [label="__pycache__ (86.93 kB)\l8 Files (86.93 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\platformdirs\__pycache___files_87" [label="android.cpython-311.pyc\lapi.cpython-311.pyc\lmacos.cpython-311.pyc\lunix.cpython-311.pyc\lversion.cpython-311.pyc\lwindows.cpython-311.pyc\l__init__.cpython-311.pyc\l__main__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\platformdirs\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\platformdirs\__pycache___files_87"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\pygments" [label="pygments (673.06 kB)\l5 Folders\l15 Files (146.12 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\filters" [label=filters]
+	".venv\Lib\site-packages\pip\_vendor\pygments" -> ".venv\Lib\site-packages\pip\_vendor\pygments\filters"
+	".venv\Lib\site-packages\pip\_vendor\pygments\formatters" [label=formatters]
+	".venv\Lib\site-packages\pip\_vendor\pygments" -> ".venv\Lib\site-packages\pip\_vendor\pygments\formatters"
+	".venv\Lib\site-packages\pip\_vendor\pygments\lexers" [label=lexers]
+	".venv\Lib\site-packages\pip\_vendor\pygments" -> ".venv\Lib\site-packages\pip\_vendor\pygments\lexers"
+	".venv\Lib\site-packages\pip\_vendor\pygments\styles" [label=styles]
+	".venv\Lib\site-packages\pip\_vendor\pygments" -> ".venv\Lib\site-packages\pip\_vendor\pygments\styles"
+	".venv\Lib\site-packages\pip\_vendor\pygments\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\pygments" -> ".venv\Lib\site-packages\pip\_vendor\pygments\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\pygments_files_88" [label="console.py\lfilter.py\lformatter.py\llexer.py\lmodeline.py\lplugin.py\lregexopt.py\lscanner.py\lsphinxext.py\lstyle.py\ltoken.py\lunistring.py\lutil.py\l__init__.py\l__main__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\pygments" -> ".venv\Lib\site-packages\pip\_vendor\pygments_files_88"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\filters" [label="filters (78.66 kB)\l1 Folder\l1 File (39.45 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\filters\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\pygments\filters" -> ".venv\Lib\site-packages\pip\_vendor\pygments\filters\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\pygments\filters_files_89" [label="__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\filters" -> ".venv\Lib\site-packages\pip\_vendor\pygments\filters_files_89"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\filters\__pycache__" [label="__pycache__ (39.21 kB)\l1 File (39.21 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\pygments\filters\__pycache___files_90" [label="__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\filters\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\pygments\filters\__pycache___files_90"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\formatters" [label="formatters (21.04 kB)\l1 Folder\l2 Files (9.34 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\formatters\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\pygments\formatters" -> ".venv\Lib\site-packages\pip\_vendor\pygments\formatters\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\pygments\formatters_files_91" [label="_mapping.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\formatters" -> ".venv\Lib\site-packages\pip\_vendor\pygments\formatters_files_91"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\formatters\__pycache__" [label="__pycache__ (11.71 kB)\l2 Files (11.71 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\pygments\formatters\__pycache___files_92" [label="_mapping.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\formatters\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\pygments\formatters\__pycache___files_92"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\lexers" [label="lexers (267.44 kB)\l1 Folder\l3 Files (140.21 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\lexers\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\pygments\lexers" -> ".venv\Lib\site-packages\pip\_vendor\pygments\lexers\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\pygments\lexers_files_93" [label="python.py\l_mapping.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\lexers" -> ".venv\Lib\site-packages\pip\_vendor\pygments\lexers_files_93"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\lexers\__pycache__" [label="__pycache__ (127.24 kB)\l3 Files (127.24 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\pygments\lexers\__pycache___files_94" [label="python.cpython-311.pyc\l_mapping.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\lexers\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\pygments\lexers\__pycache___files_94"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\styles" [label="styles (11.83 kB)\l1 Folder\l2 Files (5.23 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\styles\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\pygments\styles" -> ".venv\Lib\site-packages\pip\_vendor\pygments\styles\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\pygments\styles_files_95" [label="_mapping.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\styles" -> ".venv\Lib\site-packages\pip\_vendor\pygments\styles_files_95"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\styles\__pycache__" [label="__pycache__ (6.61 kB)\l2 Files (6.61 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\pygments\styles\__pycache___files_96" [label="_mapping.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\styles\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\pygments\styles\__pycache___files_96"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\__pycache__" [label="__pycache__ (147.96 kB)\l15 Files (147.96 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\pygments\__pycache___files_97" [label="console.cpython-311.pyc\lfilter.cpython-311.pyc\lformatter.cpython-311.pyc\llexer.cpython-311.pyc\lmodeline.cpython-311.pyc\lplugin.cpython-311.pyc\lregexopt.cpython-311.pyc\lscanner.cpython-311.pyc\lsphinxext.cpython-311.pyc\lstyle.cpython-311.pyc\ltoken.cpython-311.pyc\lunistring.cpython-311.pyc\lutil.cpython-311.pyc\l__init__.cpython-311.pyc\l__main__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\pygments\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\pygments\__pycache___files_97"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\pyproject_hooks" [label="pyproject_hooks (66.71 kB)\l2 Folders\l3 Files (15.26 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process" [label=_in_process]
+	".venv\Lib\site-packages\pip\_vendor\pyproject_hooks" -> ".venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process"
+	".venv\Lib\site-packages\pip\_vendor\pyproject_hooks\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\pyproject_hooks" -> ".venv\Lib\site-packages\pip\_vendor\pyproject_hooks\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\pyproject_hooks_files_98" [label="py.typed\l_impl.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\pyproject_hooks" -> ".venv\Lib\site-packages\pip\_vendor\pyproject_hooks_files_98"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process" [label="_in_process (30.65 kB)\l1 Folder\l2 Files (12.47 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process" -> ".venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process_files_99" [label="_in_process.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process" -> ".venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process_files_99"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\__pycache__" [label="__pycache__ (18.18 kB)\l2 Files (18.18 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\__pycache___files_100" [label="_in_process.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\__pycache___files_100"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\pyproject_hooks\__pycache__" [label="__pycache__ (20.8 kB)\l2 Files (20.8 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\pyproject_hooks\__pycache___files_101" [label="_impl.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\pyproject_hooks\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\pyproject_hooks\__pycache___files_101"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\requests" [label="requests (408.08 kB)\l1 Folder\l18 Files (184.05 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\requests\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\requests" -> ".venv\Lib\site-packages\pip\_vendor\requests\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\requests_files_102" [label="adapters.py\lapi.py\lauth.py\lcerts.py\lcompat.py\lcookies.py\lexceptions.py\lhelp.py\lhooks.py\lmodels.py\lpackages.py\lsessions.py\lstatus_codes.py\lstructures.py\lutils.py\l_internal_utils.py\l__init__.py\l__version__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\requests" -> ".venv\Lib\site-packages\pip\_vendor\requests_files_102"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\requests\__pycache__" [label="__pycache__ (224.04 kB)\l18 Files (224.04 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\requests\__pycache___files_103" [label="adapters.cpython-311.pyc\lapi.cpython-311.pyc\lauth.cpython-311.pyc\lcerts.cpython-311.pyc\lcompat.cpython-311.pyc\lcookies.cpython-311.pyc\lexceptions.cpython-311.pyc\lhelp.cpython-311.pyc\lhooks.cpython-311.pyc\lmodels.cpython-311.pyc\lpackages.cpython-311.pyc\lsessions.cpython-311.pyc\lstatus_codes.cpython-311.pyc\lstructures.cpython-311.pyc\lutils.cpython-311.pyc\l_internal_utils.cpython-311.pyc\l__init__.cpython-311.pyc\l__version__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\requests\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\requests\__pycache___files_103"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\resolvelib" [label="resolvelib (108.48 kB)\l2 Folders\l5 Files (17.49 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\resolvelib\resolvers" [label=resolvers]
+	".venv\Lib\site-packages\pip\_vendor\resolvelib" -> ".venv\Lib\site-packages\pip\_vendor\resolvelib\resolvers"
+	".venv\Lib\site-packages\pip\_vendor\resolvelib\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\resolvelib" -> ".venv\Lib\site-packages\pip\_vendor\resolvelib\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\resolvelib_files_104" [label="providers.py\lpy.typed\lreporters.py\lstructs.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\resolvelib" -> ".venv\Lib\site-packages\pip\_vendor\resolvelib_files_104"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\resolvelib\resolvers" [label="resolvers (62.67 kB)\l1 Folder\l5 Files (25.79 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\resolvelib\resolvers\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\resolvelib\resolvers" -> ".venv\Lib\site-packages\pip\_vendor\resolvelib\resolvers\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\resolvelib\resolvers_files_105" [label="abstract.py\lcriterion.py\lexceptions.py\lresolution.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\resolvelib\resolvers" -> ".venv\Lib\site-packages\pip\_vendor\resolvelib\resolvers_files_105"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\resolvelib\resolvers\__pycache__" [label="__pycache__ (36.88 kB)\l5 Files (36.88 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\resolvelib\resolvers\__pycache___files_106" [label="abstract.cpython-311.pyc\lcriterion.cpython-311.pyc\lexceptions.cpython-311.pyc\lresolution.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\resolvelib\resolvers\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\resolvelib\resolvers\__pycache___files_106"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\resolvelib\__pycache__" [label="__pycache__ (28.32 kB)\l4 Files (28.32 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\resolvelib\__pycache___files_107" [label="providers.cpython-311.pyc\lreporters.cpython-311.pyc\lstructs.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\resolvelib\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\resolvelib\__pycache___files_107"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\rich" [label="rich (2.04 MB)\l1 Folder\l78 Files (888.26 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\rich\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\rich" -> ".venv\Lib\site-packages\pip\_vendor\rich\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\rich_files_108" [label="abc.py\lalign.py\lansi.py\lbar.py\lbox.py\lcells.py\lcolor.py\lcolor_triplet.py\lcolumns.py\lconsole.py\lconstrain.py\lcontainers.py\lcontrol.py\ldefault_styles.py\ldiagnose.py\lemoji.py\lerrors.py\lfilesize.py\lfile_proxy.py\lhighlighter.py\ljson.py\ljupyter.py\llayout.py\llive.py\llive_render.py\llogging.py\lmarkup.py\lmeasure.py\lpadding.py\lpager.py\lpalette.py\lpanel.py\lpretty.py\lprogress.py\lprogress_bar.py\lprompt.py\lprotocol.py\lpy.typed\lregion.py\lrepr.py\lrule.py\lscope.py\lscreen.py\lsegment.py\lspinner.py\lstatus.py\lstyle.py\lstyled.py\lsyntax.py\ltable.py\lterminal_theme.py\ltext.py\ltheme.py\lthemes.py\ltraceback.py\ltree.py\l_cell_widths.py\l_emoji_codes.py\l_emoji_replace.py\l_export_format.py\l_extension.py\l_fileno.py\l_inspect.py\l_log_render.py\l_loop.py\l_null_file.py\l_palettes.py\l_pick.py\l_ratio.py\l_spinners.py\l_stack.py\l_timer.py\l_win32_console.py\l_windows.py\l_windows_renderer.py\l_wrap.py\l__init__.py\l__main__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\rich" -> ".venv\Lib\site-packages\pip\_vendor\rich_files_108"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\rich\__pycache__" [label="__pycache__ (1.17 MB)\l77 Files (1.17 MB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\rich\__pycache___files_109" [label="abc.cpython-311.pyc\lalign.cpython-311.pyc\lansi.cpython-311.pyc\lbar.cpython-311.pyc\lbox.cpython-311.pyc\lcells.cpython-311.pyc\lcolor.cpython-311.pyc\lcolor_triplet.cpython-311.pyc\lcolumns.cpython-311.pyc\lconsole.cpython-311.pyc\lconstrain.cpython-311.pyc\lcontainers.cpython-311.pyc\lcontrol.cpython-311.pyc\ldefault_styles.cpython-311.pyc\ldiagnose.cpython-311.pyc\lemoji.cpython-311.pyc\lerrors.cpython-311.pyc\lfilesize.cpython-311.pyc\lfile_proxy.cpython-311.pyc\lhighlighter.cpython-311.pyc\ljson.cpython-311.pyc\ljupyter.cpython-311.pyc\llayout.cpython-311.pyc\llive.cpython-311.pyc\llive_render.cpython-311.pyc\llogging.cpython-311.pyc\lmarkup.cpython-311.pyc\lmeasure.cpython-311.pyc\lpadding.cpython-311.pyc\lpager.cpython-311.pyc\lpalette.cpython-311.pyc\lpanel.cpython-311.pyc\lpretty.cpython-311.pyc\lprogress.cpython-311.pyc\lprogress_bar.cpython-311.pyc\lprompt.cpython-311.pyc\lprotocol.cpython-311.pyc\lregion.cpython-311.pyc\lrepr.cpython-311.pyc\lrule.cpython-311.pyc\lscope.cpython-311.pyc\lscreen.cpython-311.pyc\lsegment.cpython-311.pyc\lspinner.cpython-311.pyc\lstatus.cpython-311.pyc\lstyle.cpython-311.pyc\lstyled.cpython-311.pyc\lsyntax.cpython-311.pyc\ltable.cpython-311.pyc\lterminal_theme.cpython-311.pyc\ltext.cpython-311.pyc\ltheme.cpython-311.pyc\lthemes.cpython-311.pyc\ltraceback.cpython-311.pyc\ltree.cpython-311.pyc\l_cell_widths.cpython-311.pyc\l_emoji_codes.cpython-311.pyc\l_emoji_replace.cpython-311.pyc\l_export_format.cpython-311.pyc\l_extension.cpython-311.pyc\l_fileno.cpython-311.pyc\l_inspect.cpython-311.pyc\l_log_render.cpython-311.pyc\l_loop.cpython-311.pyc\l_null_file.cpython-311.pyc\l_palettes.cpython-311.pyc\l_pick.cpython-311.pyc\l_ratio.cpython-311.pyc\l_spinners.cpython-311.pyc\l_stack.cpython-311.pyc\l_timer.cpython-311.pyc\l_win32_console.cpython-311.pyc\l_windows.cpython-311.pyc\l_windows_renderer.cpython-311.pyc\l_wrap.cpython-311.pyc\l__init__.cpython-311.pyc\l__main__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\rich\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\rich\__pycache___files_109"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\tomli" [label="tomli (66.64 kB)\l1 Folder\l5 Files (28.67 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\tomli\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\tomli" -> ".venv\Lib\site-packages\pip\_vendor\tomli\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\tomli_files_110" [label="py.typed\l_parser.py\l_re.py\l_types.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\tomli" -> ".venv\Lib\site-packages\pip\_vendor\tomli_files_110"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\tomli\__pycache__" [label="__pycache__ (37.97 kB)\l4 Files (37.97 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\tomli\__pycache___files_111" [label="_parser.cpython-311.pyc\l_re.cpython-311.pyc\l_types.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\tomli\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\tomli\__pycache___files_111"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\tomli_w" [label="tomli_w (19.06 kB)\l1 Folder\l3 Files (6.99 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\tomli_w\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\tomli_w" -> ".venv\Lib\site-packages\pip\_vendor\tomli_w\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\tomli_w_files_112" [label="py.typed\l_writer.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\tomli_w" -> ".venv\Lib\site-packages\pip\_vendor\tomli_w_files_112"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\tomli_w\__pycache__" [label="__pycache__ (12.07 kB)\l2 Files (12.07 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\tomli_w\__pycache___files_113" [label="_writer.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\tomli_w\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\tomli_w\__pycache___files_113"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\truststore" [label="truststore (112.57 kB)\l1 Folder\l7 Files (53.24 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\truststore\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\truststore" -> ".venv\Lib\site-packages\pip\_vendor\truststore\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\truststore_files_114" [label="py.typed\l_api.py\l_macos.py\l_openssl.py\l_ssl_constants.py\l_windows.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\truststore" -> ".venv\Lib\site-packages\pip\_vendor\truststore_files_114"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\truststore\__pycache__" [label="__pycache__ (59.33 kB)\l6 Files (59.33 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\truststore\__pycache___files_115" [label="_api.cpython-311.pyc\l_macos.cpython-311.pyc\l_openssl.cpython-311.pyc\l_ssl_constants.cpython-311.pyc\l_windows.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\truststore\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\truststore\__pycache___files_115"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3" [label="urllib3 (848.85 kB)\l4 Folders\l11 Files (148.49 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\contrib" [label=contrib]
+	".venv\Lib\site-packages\pip\_vendor\urllib3" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\contrib"
+	".venv\Lib\site-packages\pip\_vendor\urllib3\packages" [label=packages]
+	".venv\Lib\site-packages\pip\_vendor\urllib3" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\packages"
+	".venv\Lib\site-packages\pip\_vendor\urllib3\util" [label=util]
+	".venv\Lib\site-packages\pip\_vendor\urllib3" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\util"
+	".venv\Lib\site-packages\pip\_vendor\urllib3\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\urllib3" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\urllib3_files_116" [label="connection.py\lconnectionpool.py\lexceptions.py\lfields.py\lfilepost.py\lpoolmanager.py\lrequest.py\lresponse.py\l_collections.py\l_version.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3" -> ".venv\Lib\site-packages\pip\_vendor\urllib3_files_116"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\contrib" [label="contrib (225.23 kB)\l2 Folders\l7 Files (73.38 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport" [label=_securetransport]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\contrib" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport"
+	".venv\Lib\site-packages\pip\_vendor\urllib3\contrib\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\contrib" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\contrib\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\contrib_files_117" [label="appengine.py\lntlmpool.py\lpyopenssl.py\lsecuretransport.py\lsocks.py\l_appengine_environ.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\contrib" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\contrib_files_117"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport" [label="_securetransport (62.83 kB)\l1 Folder\l3 Files (30.81 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport_files_118" [label="bindings.py\llow_level.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport_files_118"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport\__pycache__" [label="__pycache__ (32.01 kB)\l3 Files (32.01 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport\__pycache___files_119" [label="bindings.cpython-311.pyc\llow_level.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport\__pycache___files_119"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\contrib\__pycache__" [label="__pycache__ (89.02 kB)\l7 Files (89.02 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\contrib\__pycache___files_120" [label="appengine.cpython-311.pyc\lntlmpool.cpython-311.pyc\lpyopenssl.cpython-311.pyc\lsecuretransport.cpython-311.pyc\lsocks.cpython-311.pyc\l_appengine_environ.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\contrib\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\contrib\__pycache___files_120"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\packages" [label="packages (95.92 kB)\l2 Folders\l2 Files (33.85 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\packages\backports" [label=backports]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\packages" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\packages\backports"
+	".venv\Lib\site-packages\pip\_vendor\urllib3\packages\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\packages" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\packages\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\packages_files_121" [label="six.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\packages" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\packages_files_121"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\packages\backports" [label="backports (16.52 kB)\l1 Folder\l3 Files (6.6 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\packages\backports\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\packages\backports" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\packages\backports\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\packages\backports_files_122" [label="makefile.py\lweakref_finalize.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\packages\backports" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\packages\backports_files_122"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\packages\backports\__pycache__" [label="__pycache__ (9.91 kB)\l3 Files (9.91 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\packages\backports\__pycache___files_123" [label="makefile.cpython-311.pyc\lweakref_finalize.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\packages\backports\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\packages\backports\__pycache___files_123"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\packages\__pycache__" [label="__pycache__ (45.55 kB)\l2 Files (45.55 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\packages\__pycache___files_124" [label="six.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\packages\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\packages\__pycache___files_124"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\util" [label="util (202.03 kB)\l1 Folder\l13 Files (95.41 kB)\l"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\util\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\util" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\util\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\util_files_125" [label="connection.py\lproxy.py\lqueue.py\lrequest.py\lresponse.py\lretry.py\lssltransport.py\lssl_.py\lssl_match_hostname.py\ltimeout.py\lurl.py\lwait.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\util" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\util_files_125"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\util\__pycache__" [label="__pycache__ (106.63 kB)\l13 Files (106.63 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\util\__pycache___files_126" [label="connection.cpython-311.pyc\lproxy.cpython-311.pyc\lqueue.cpython-311.pyc\lrequest.cpython-311.pyc\lresponse.cpython-311.pyc\lretry.cpython-311.pyc\lssltransport.cpython-311.pyc\lssl_.cpython-311.pyc\lssl_match_hostname.cpython-311.pyc\ltimeout.cpython-311.pyc\lurl.cpython-311.pyc\lwait.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\util\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\util\__pycache___files_126"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\__pycache__" [label="__pycache__ (177.19 kB)\l11 Files (177.19 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\__pycache___files_127" [label="connection.cpython-311.pyc\lconnectionpool.cpython-311.pyc\lexceptions.cpython-311.pyc\lfields.cpython-311.pyc\lfilepost.cpython-311.pyc\lpoolmanager.cpython-311.pyc\lrequest.cpython-311.pyc\lresponse.cpython-311.pyc\l_collections.cpython-311.pyc\l_version.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\urllib3\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\urllib3\__pycache___files_127"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\_vendor\__pycache__" [label="__pycache__ (190.52 kB)\l2 Files (190.52 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\_vendor\__pycache___files_128" [label="typing_extensions.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\_vendor\__pycache__" -> ".venv\Lib\site-packages\pip\_vendor\__pycache___files_128"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip\__pycache__" [label="__pycache__ (4.05 kB)\l3 Files (4.05 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip\__pycache___files_129" [label="__init__.cpython-311.pyc\l__main__.cpython-311.pyc\l__pip-runner__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pip\__pycache__" -> ".venv\Lib\site-packages\pip\__pycache___files_129"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip-25.1.1.dist-info" [label="pip-25.1.1.dist-info (80.2 kB)\l1 Folder\l7 Files (68.17 kB)\l"]
+	".venv\Lib\site-packages\pip-25.1.1.dist-info\licenses" [label=licenses]
+	".venv\Lib\site-packages\pip-25.1.1.dist-info" -> ".venv\Lib\site-packages\pip-25.1.1.dist-info\licenses"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip-25.1.1.dist-info_files_130" [label="entry_points.txt\lINSTALLER\lMETADATA\lRECORD\lREQUESTED\ltop_level.txt\lWHEEL\l"]
+	".venv\Lib\site-packages\pip-25.1.1.dist-info" -> ".venv\Lib\site-packages\pip-25.1.1.dist-info_files_130"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pip-25.1.1.dist-info\licenses" [label="licenses (12.03 kB)\l2 Files (12.03 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pip-25.1.1.dist-info\licenses_files_131" [label="AUTHORS.txt\lLICENSE.txt\l"]
+	".venv\Lib\site-packages\pip-25.1.1.dist-info\licenses" -> ".venv\Lib\site-packages\pip-25.1.1.dist-info\licenses_files_131"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pkg_resources" [label="pkg_resources (1.87 MB)\l3 Folders\l1 File (106.02 kB)\l"]
+	".venv\Lib\site-packages\pkg_resources\extern" [label=extern]
+	".venv\Lib\site-packages\pkg_resources" -> ".venv\Lib\site-packages\pkg_resources\extern"
+	".venv\Lib\site-packages\pkg_resources\_vendor" [label=_vendor]
+	".venv\Lib\site-packages\pkg_resources" -> ".venv\Lib\site-packages\pkg_resources\_vendor"
+	".venv\Lib\site-packages\pkg_resources\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pkg_resources" -> ".venv\Lib\site-packages\pkg_resources\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pkg_resources_files_132" [label="__init__.py\l"]
+	".venv\Lib\site-packages\pkg_resources" -> ".venv\Lib\site-packages\pkg_resources_files_132"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pkg_resources\extern" [label="extern (6.58 kB)\l1 Folder\l1 File (2.37 kB)\l"]
+	".venv\Lib\site-packages\pkg_resources\extern\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pkg_resources\extern" -> ".venv\Lib\site-packages\pkg_resources\extern\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pkg_resources\extern_files_133" [label="__init__.py\l"]
+	".venv\Lib\site-packages\pkg_resources\extern" -> ".venv\Lib\site-packages\pkg_resources\extern_files_133"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pkg_resources\extern\__pycache__" [label="__pycache__ (4.21 kB)\l1 File (4.21 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pkg_resources\extern\__pycache___files_134" [label="__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pkg_resources\extern\__pycache__" -> ".venv\Lib\site-packages\pkg_resources\extern\__pycache___files_134"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pkg_resources\_vendor" [label="_vendor (1.6 MB)\l6 Folders\l3 Files (32.35 kB)\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\importlib_resources" [label=importlib_resources]
+	".venv\Lib\site-packages\pkg_resources\_vendor" -> ".venv\Lib\site-packages\pkg_resources\_vendor\importlib_resources"
+	".venv\Lib\site-packages\pkg_resources\_vendor\jaraco" [label=jaraco]
+	".venv\Lib\site-packages\pkg_resources\_vendor" -> ".venv\Lib\site-packages\pkg_resources\_vendor\jaraco"
+	".venv\Lib\site-packages\pkg_resources\_vendor\more_itertools" [label=more_itertools]
+	".venv\Lib\site-packages\pkg_resources\_vendor" -> ".venv\Lib\site-packages\pkg_resources\_vendor\more_itertools"
+	".venv\Lib\site-packages\pkg_resources\_vendor\packaging" [label=packaging]
+	".venv\Lib\site-packages\pkg_resources\_vendor" -> ".venv\Lib\site-packages\pkg_resources\_vendor\packaging"
+	".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing" [label=pyparsing]
+	".venv\Lib\site-packages\pkg_resources\_vendor" -> ".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing"
+	".venv\Lib\site-packages\pkg_resources\_vendor\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pkg_resources\_vendor" -> ".venv\Lib\site-packages\pkg_resources\_vendor\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pkg_resources\_vendor_files_135" [label="appdirs.py\lzipp.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor" -> ".venv\Lib\site-packages\pkg_resources\_vendor_files_135"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\importlib_resources" [label="importlib_resources (74.83 kB)\l1 Folder\l9 Files (24.53 kB)\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\importlib_resources\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pkg_resources\_vendor\importlib_resources" -> ".venv\Lib\site-packages\pkg_resources\_vendor\importlib_resources\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pkg_resources\_vendor\importlib_resources_files_136" [label="abc.py\lreaders.py\lsimple.py\l_adapters.py\l_common.py\l_compat.py\l_itertools.py\l_legacy.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\importlib_resources" -> ".venv\Lib\site-packages\pkg_resources\_vendor\importlib_resources_files_136"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\importlib_resources\__pycache__" [label="__pycache__ (50.3 kB)\l9 Files (50.3 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pkg_resources\_vendor\importlib_resources\__pycache___files_137" [label="abc.cpython-311.pyc\lreaders.cpython-311.pyc\lsimple.cpython-311.pyc\l_adapters.cpython-311.pyc\l_common.cpython-311.pyc\l_compat.cpython-311.pyc\l_itertools.cpython-311.pyc\l_legacy.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\importlib_resources\__pycache__" -> ".venv\Lib\site-packages\pkg_resources\_vendor\importlib_resources\__pycache___files_137"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\jaraco" [label="jaraco (88.84 kB)\l2 Folders\l3 Files (18.49 kB)\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\jaraco\text" [label=text]
+	".venv\Lib\site-packages\pkg_resources\_vendor\jaraco" -> ".venv\Lib\site-packages\pkg_resources\_vendor\jaraco\text"
+	".venv\Lib\site-packages\pkg_resources\_vendor\jaraco\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pkg_resources\_vendor\jaraco" -> ".venv\Lib\site-packages\pkg_resources\_vendor\jaraco\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pkg_resources\_vendor\jaraco_files_138" [label="context.py\lfunctools.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\jaraco" -> ".venv\Lib\site-packages\pkg_resources\_vendor\jaraco_files_138"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\jaraco\text" [label="text (41.14 kB)\l1 Folder\l1 File (15.16 kB)\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\jaraco\text\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pkg_resources\_vendor\jaraco\text" -> ".venv\Lib\site-packages\pkg_resources\_vendor\jaraco\text\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pkg_resources\_vendor\jaraco\text_files_139" [label="__init__.py\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\jaraco\text" -> ".venv\Lib\site-packages\pkg_resources\_vendor\jaraco\text_files_139"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\jaraco\text\__pycache__" [label="__pycache__ (25.98 kB)\l1 File (25.98 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pkg_resources\_vendor\jaraco\text\__pycache___files_140" [label="__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\jaraco\text\__pycache__" -> ".venv\Lib\site-packages\pkg_resources\_vendor\jaraco\text\__pycache___files_140"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\jaraco\__pycache__" [label="__pycache__ (29.21 kB)\l3 Files (29.21 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pkg_resources\_vendor\jaraco\__pycache___files_141" [label="context.cpython-311.pyc\lfunctools.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\jaraco\__pycache__" -> ".venv\Lib\site-packages\pkg_resources\_vendor\jaraco\__pycache___files_141"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\more_itertools" [label="more_itertools (338.14 kB)\l1 Folder\l3 Files (147.52 kB)\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\more_itertools\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pkg_resources\_vendor\more_itertools" -> ".venv\Lib\site-packages\pkg_resources\_vendor\more_itertools\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pkg_resources\_vendor\more_itertools_files_142" [label="more.py\lrecipes.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\more_itertools" -> ".venv\Lib\site-packages\pkg_resources\_vendor\more_itertools_files_142"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\more_itertools\__pycache__" [label="__pycache__ (190.62 kB)\l3 Files (190.62 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pkg_resources\_vendor\more_itertools\__pycache___files_143" [label="more.cpython-311.pyc\lrecipes.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\more_itertools\__pycache__" -> ".venv\Lib\site-packages\pkg_resources\_vendor\more_itertools\__pycache___files_143"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\packaging" [label="packaging (225.51 kB)\l1 Folder\l11 Files (94.07 kB)\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\packaging\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pkg_resources\_vendor\packaging" -> ".venv\Lib\site-packages\pkg_resources\_vendor\packaging\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pkg_resources\_vendor\packaging_files_144" [label="markers.py\lrequirements.py\lspecifiers.py\ltags.py\lutils.py\lversion.py\l_manylinux.py\l_musllinux.py\l_structures.py\l__about__.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\packaging" -> ".venv\Lib\site-packages\pkg_resources\_vendor\packaging_files_144"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\packaging\__pycache__" [label="__pycache__ (131.44 kB)\l11 Files (131.44 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pkg_resources\_vendor\packaging\__pycache___files_145" [label="markers.cpython-311.pyc\lrequirements.cpython-311.pyc\lspecifiers.cpython-311.pyc\ltags.cpython-311.pyc\lutils.cpython-311.pyc\lversion.cpython-311.pyc\l_manylinux.cpython-311.pyc\l_musllinux.cpython-311.pyc\l_structures.cpython-311.pyc\l__about__.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\packaging\__pycache__" -> ".venv\Lib\site-packages\pkg_resources\_vendor\packaging\__pycache___files_145"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing" [label="pyparsing (839.08 kB)\l2 Folders\l10 Files (338.2 kB)\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing\diagram" [label=diagram]
+	".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing" -> ".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing\diagram"
+	".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing" -> ".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing_files_146" [label="actions.py\lcommon.py\lcore.py\lexceptions.py\lhelpers.py\lresults.py\ltesting.py\lunicode.py\lutil.py\l__init__.py\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing" -> ".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing_files_146"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing\diagram" [label="diagram (50.46 kB)\l1 Folder\l1 File (23.11 kB)\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing\diagram\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing\diagram" -> ".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing\diagram\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing\diagram_files_147" [label="__init__.py\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing\diagram" -> ".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing\diagram_files_147"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing\diagram\__pycache__" [label="__pycache__ (27.34 kB)\l1 File (27.34 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing\diagram\__pycache___files_148" [label="__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing\diagram\__pycache__" -> ".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing\diagram\__pycache___files_148"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing\__pycache__" [label="__pycache__ (450.42 kB)\l10 Files (450.42 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing\__pycache___files_149" [label="actions.cpython-311.pyc\lcommon.cpython-311.pyc\lcore.cpython-311.pyc\lexceptions.cpython-311.pyc\lhelpers.cpython-311.pyc\lresults.cpython-311.pyc\ltesting.cpython-311.pyc\lunicode.cpython-311.pyc\lutil.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing\__pycache__" -> ".venv\Lib\site-packages\pkg_resources\_vendor\pyparsing\__pycache___files_149"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\__pycache__" [label="__pycache__ (44.55 kB)\l3 Files (44.55 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pkg_resources\_vendor\__pycache___files_150" [label="appdirs.cpython-311.pyc\lzipp.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pkg_resources\_vendor\__pycache__" -> ".venv\Lib\site-packages\pkg_resources\_vendor\__pycache___files_150"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\pkg_resources\__pycache__" [label="__pycache__ (155.83 kB)\l1 File (155.83 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\pkg_resources\__pycache___files_151" [label="__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\pkg_resources\__pycache__" -> ".venv\Lib\site-packages\pkg_resources\__pycache___files_151"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\requests" [label="requests (408.29 kB)\l1 Folder\l18 Files (184.04 kB)\l"]
+	".venv\Lib\site-packages\requests\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\requests" -> ".venv\Lib\site-packages\requests\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\requests_files_152" [label="adapters.py\lapi.py\lauth.py\lcerts.py\lcompat.py\lcookies.py\lexceptions.py\lhelp.py\lhooks.py\lmodels.py\lpackages.py\lsessions.py\lstatus_codes.py\lstructures.py\lutils.py\l_internal_utils.py\l__init__.py\l__version__.py\l"]
+	".venv\Lib\site-packages\requests" -> ".venv\Lib\site-packages\requests_files_152"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\requests\__pycache__" [label="__pycache__ (224.24 kB)\l18 Files (224.24 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\requests\__pycache___files_153" [label="adapters.cpython-311.pyc\lapi.cpython-311.pyc\lauth.cpython-311.pyc\lcerts.cpython-311.pyc\lcompat.cpython-311.pyc\lcookies.cpython-311.pyc\lexceptions.cpython-311.pyc\lhelp.cpython-311.pyc\lhooks.cpython-311.pyc\lmodels.cpython-311.pyc\lpackages.cpython-311.pyc\lsessions.cpython-311.pyc\lstatus_codes.cpython-311.pyc\lstructures.cpython-311.pyc\lutils.cpython-311.pyc\l_internal_utils.cpython-311.pyc\l__init__.cpython-311.pyc\l__version__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\requests\__pycache__" -> ".venv\Lib\site-packages\requests\__pycache___files_153"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\requests-2.32.3.dist-info" [label="requests-2.32.3.dist-info (17.29 kB)\l7 Files (17.29 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\requests-2.32.3.dist-info_files_154" [label="INSTALLER\lLICENSE\lMETADATA\lRECORD\lREQUESTED\ltop_level.txt\lWHEEL\l"]
+	".venv\Lib\site-packages\requests-2.32.3.dist-info" -> ".venv\Lib\site-packages\requests-2.32.3.dist-info_files_154"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools" [label="setuptools (5.73 MB)\l6 Folders\l40 Files (920.56 kB)\l"]
+	".venv\Lib\site-packages\setuptools\command" [label=command]
+	".venv\Lib\site-packages\setuptools" -> ".venv\Lib\site-packages\setuptools\command"
+	".venv\Lib\site-packages\setuptools\config" [label=config]
+	".venv\Lib\site-packages\setuptools" -> ".venv\Lib\site-packages\setuptools\config"
+	".venv\Lib\site-packages\setuptools\extern" [label=extern]
+	".venv\Lib\site-packages\setuptools" -> ".venv\Lib\site-packages\setuptools\extern"
+	".venv\Lib\site-packages\setuptools\_distutils" [label=_distutils]
+	".venv\Lib\site-packages\setuptools" -> ".venv\Lib\site-packages\setuptools\_distutils"
+	".venv\Lib\site-packages\setuptools\_vendor" [label=_vendor]
+	".venv\Lib\site-packages\setuptools" -> ".venv\Lib\site-packages\setuptools\_vendor"
+	".venv\Lib\site-packages\setuptools\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\setuptools" -> ".venv\Lib\site-packages\setuptools\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools_files_155" [label="archive_util.py\lbuild_meta.py\lcli-32.exe\lcli-64.exe\lcli-arm64.exe\lcli.exe\ldepends.py\ldep_util.py\ldiscovery.py\ldist.py\lerrors.py\lextension.py\lglob.py\lgui-32.exe\lgui-64.exe\lgui-arm64.exe\lgui.exe\linstaller.py\llaunch.py\llogging.py\lmonkey.py\lmsvc.py\lnamespaces.py\lpackage_index.py\lpy34compat.py\lsandbox.py\lscript (dev).tmpl\lscript.tmpl\lunicode_utils.py\lversion.py\lwheel.py\lwindows_support.py\l_deprecation_warning.py\l_entry_points.py\l_imp.py\l_importlib.py\l_itertools.py\l_path.py\l_reqs.py\l__init__.py\l"]
+	".venv\Lib\site-packages\setuptools" -> ".venv\Lib\site-packages\setuptools_files_155"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\command" [label="command (655.28 kB)\l1 Folder\l27 Files (261.62 kB)\l"]
+	".venv\Lib\site-packages\setuptools\command\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\setuptools\command" -> ".venv\Lib\site-packages\setuptools\command\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\command_files_156" [label="alias.py\lbdist_egg.py\lbdist_rpm.py\lbuild.py\lbuild_clib.py\lbuild_ext.py\lbuild_py.py\ldevelop.py\ldist_info.py\leasy_install.py\leditable_wheel.py\legg_info.py\linstall.py\linstall_egg_info.py\linstall_lib.py\linstall_scripts.py\llauncher manifest.xml\lpy36compat.py\lregister.py\lrotate.py\lsaveopts.py\lsdist.py\lsetopt.py\ltest.py\lupload.py\lupload_docs.py\l__init__.py\l"]
+	".venv\Lib\site-packages\setuptools\command" -> ".venv\Lib\site-packages\setuptools\command_files_156"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\command\__pycache__" [label="__pycache__ (393.66 kB)\l26 Files (393.66 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\command\__pycache___files_157" [label="alias.cpython-311.pyc\lbdist_egg.cpython-311.pyc\lbdist_rpm.cpython-311.pyc\lbuild.cpython-311.pyc\lbuild_clib.cpython-311.pyc\lbuild_ext.cpython-311.pyc\lbuild_py.cpython-311.pyc\ldevelop.cpython-311.pyc\ldist_info.cpython-311.pyc\leasy_install.cpython-311.pyc\leditable_wheel.cpython-311.pyc\legg_info.cpython-311.pyc\linstall.cpython-311.pyc\linstall_egg_info.cpython-311.pyc\linstall_lib.cpython-311.pyc\linstall_scripts.cpython-311.pyc\lpy36compat.cpython-311.pyc\lregister.cpython-311.pyc\lrotate.cpython-311.pyc\lsaveopts.cpython-311.pyc\lsdist.cpython-311.pyc\lsetopt.cpython-311.pyc\ltest.cpython-311.pyc\lupload.cpython-311.pyc\lupload_docs.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\setuptools\command\__pycache__" -> ".venv\Lib\site-packages\setuptools\command\__pycache___files_157"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\config" [label="config (700.11 kB)\l2 Folders\l5 Files (73.57 kB)\l"]
+	".venv\Lib\site-packages\setuptools\config\_validate_pyproject" [label=_validate_pyproject]
+	".venv\Lib\site-packages\setuptools\config" -> ".venv\Lib\site-packages\setuptools\config\_validate_pyproject"
+	".venv\Lib\site-packages\setuptools\config\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\setuptools\config" -> ".venv\Lib\site-packages\setuptools\config\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\config_files_158" [label="expand.py\lpyprojecttoml.py\lsetupcfg.py\l_apply_pyprojecttoml.py\l__init__.py\l"]
+	".venv\Lib\site-packages\setuptools\config" -> ".venv\Lib\site-packages\setuptools\config_files_158"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\config\_validate_pyproject" [label="_validate_pyproject (515.93 kB)\l1 Folder\l6 Files (286.82 kB)\l"]
+	".venv\Lib\site-packages\setuptools\config\_validate_pyproject\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\setuptools\config\_validate_pyproject" -> ".venv\Lib\site-packages\setuptools\config\_validate_pyproject\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\config\_validate_pyproject_files_159" [label="error_reporting.py\lextra_validations.py\lfastjsonschema_exceptions.py\lfastjsonschema_validations.py\lformats.py\l__init__.py\l"]
+	".venv\Lib\site-packages\setuptools\config\_validate_pyproject" -> ".venv\Lib\site-packages\setuptools\config\_validate_pyproject_files_159"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\config\_validate_pyproject\__pycache__" [label="__pycache__ (229.11 kB)\l6 Files (229.11 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\config\_validate_pyproject\__pycache___files_160" [label="error_reporting.cpython-311.pyc\lextra_validations.cpython-311.pyc\lfastjsonschema_exceptions.cpython-311.pyc\lfastjsonschema_validations.cpython-311.pyc\lformats.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\setuptools\config\_validate_pyproject\__pycache__" -> ".venv\Lib\site-packages\setuptools\config\_validate_pyproject\__pycache___files_160"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\config\__pycache__" [label="__pycache__ (110.6 kB)\l5 Files (110.6 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\config\__pycache___files_161" [label="expand.cpython-311.pyc\lpyprojecttoml.cpython-311.pyc\lsetupcfg.cpython-311.pyc\l_apply_pyprojecttoml.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\setuptools\config\__pycache__" -> ".venv\Lib\site-packages\setuptools\config\__pycache___files_161"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\extern" [label="extern (6.74 kB)\l1 Folder\l1 File (2.45 kB)\l"]
+	".venv\Lib\site-packages\setuptools\extern\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\setuptools\extern" -> ".venv\Lib\site-packages\setuptools\extern\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\extern_files_162" [label="__init__.py\l"]
+	".venv\Lib\site-packages\setuptools\extern" -> ".venv\Lib\site-packages\setuptools\extern_files_162"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\extern\__pycache__" [label="__pycache__ (4.29 kB)\l1 File (4.29 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\extern\__pycache___files_163" [label="__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\setuptools\extern\__pycache__" -> ".venv\Lib\site-packages\setuptools\extern\__pycache___files_163"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_distutils" [label="_distutils (1.23 MB)\l2 Folders\l33 Files (387.18 kB)\l"]
+	".venv\Lib\site-packages\setuptools\_distutils\command" [label=command]
+	".venv\Lib\site-packages\setuptools\_distutils" -> ".venv\Lib\site-packages\setuptools\_distutils\command"
+	".venv\Lib\site-packages\setuptools\_distutils\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\setuptools\_distutils" -> ".venv\Lib\site-packages\setuptools\_distutils\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_distutils_files_164" [label="archive_util.py\lbcppcompiler.py\lccompiler.py\lcmd.py\lconfig.py\lcore.py\lcygwinccompiler.py\ldebug.py\ldep_util.py\ldir_util.py\ldist.py\lerrors.py\lextension.py\lfancy_getopt.py\lfilelist.py\lfile_util.py\llog.py\lmsvc9compiler.py\lmsvccompiler.py\lpy38compat.py\lpy39compat.py\lspawn.py\lsysconfig.py\ltext_file.py\lunixccompiler.py\lutil.py\lversion.py\lversionpredicate.py\l_collections.py\l_functools.py\l_macos_compat.py\l_msvccompiler.py\l__init__.py\l"]
+	".venv\Lib\site-packages\setuptools\_distutils" -> ".venv\Lib\site-packages\setuptools\_distutils_files_164"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_distutils\command" [label="command (437.0 kB)\l1 Folder\l23 Files (203.57 kB)\l"]
+	".venv\Lib\site-packages\setuptools\_distutils\command\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\setuptools\_distutils\command" -> ".venv\Lib\site-packages\setuptools\_distutils\command\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_distutils\command_files_165" [label="bdist.py\lbdist_dumb.py\lbdist_rpm.py\lbuild.py\lbuild_clib.py\lbuild_ext.py\lbuild_py.py\lbuild_scripts.py\lcheck.py\lclean.py\lconfig.py\linstall.py\linstall_data.py\linstall_egg_info.py\linstall_headers.py\linstall_lib.py\linstall_scripts.py\lpy37compat.py\lregister.py\lsdist.py\lupload.py\l_framework_compat.py\l__init__.py\l"]
+	".venv\Lib\site-packages\setuptools\_distutils\command" -> ".venv\Lib\site-packages\setuptools\_distutils\command_files_165"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_distutils\command\__pycache__" [label="__pycache__ (233.42 kB)\l23 Files (233.42 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_distutils\command\__pycache___files_166" [label="bdist.cpython-311.pyc\lbdist_dumb.cpython-311.pyc\lbdist_rpm.cpython-311.pyc\lbuild.cpython-311.pyc\lbuild_clib.cpython-311.pyc\lbuild_ext.cpython-311.pyc\lbuild_py.cpython-311.pyc\lbuild_scripts.cpython-311.pyc\lcheck.cpython-311.pyc\lclean.cpython-311.pyc\lconfig.cpython-311.pyc\linstall.cpython-311.pyc\linstall_data.cpython-311.pyc\linstall_egg_info.cpython-311.pyc\linstall_headers.cpython-311.pyc\linstall_lib.cpython-311.pyc\linstall_scripts.cpython-311.pyc\lpy37compat.cpython-311.pyc\lregister.cpython-311.pyc\lsdist.cpython-311.pyc\lupload.cpython-311.pyc\l_framework_compat.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\setuptools\_distutils\command\__pycache__" -> ".venv\Lib\site-packages\setuptools\_distutils\command\__pycache___files_166"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_distutils\__pycache__" [label="__pycache__ (431.78 kB)\l33 Files (431.78 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_distutils\__pycache___files_167" [label="archive_util.cpython-311.pyc\lbcppcompiler.cpython-311.pyc\lccompiler.cpython-311.pyc\lcmd.cpython-311.pyc\lconfig.cpython-311.pyc\lcore.cpython-311.pyc\lcygwinccompiler.cpython-311.pyc\ldebug.cpython-311.pyc\ldep_util.cpython-311.pyc\ldir_util.cpython-311.pyc\ldist.cpython-311.pyc\lerrors.cpython-311.pyc\lextension.cpython-311.pyc\lfancy_getopt.cpython-311.pyc\lfilelist.cpython-311.pyc\lfile_util.cpython-311.pyc\llog.cpython-311.pyc\lmsvc9compiler.cpython-311.pyc\lmsvccompiler.cpython-311.pyc\lpy38compat.cpython-311.pyc\lpy39compat.cpython-311.pyc\lspawn.cpython-311.pyc\lsysconfig.cpython-311.pyc\ltext_file.cpython-311.pyc\lunixccompiler.cpython-311.pyc\lutil.cpython-311.pyc\lversion.cpython-311.pyc\lversionpredicate.cpython-311.pyc\l_collections.cpython-311.pyc\l_functools.cpython-311.pyc\l_macos_compat.cpython-311.pyc\l_msvccompiler.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\setuptools\_distutils\__pycache__" -> ".venv\Lib\site-packages\setuptools\_distutils\__pycache___files_167"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_vendor" [label="_vendor (1.91 MB)\l8 Folders\l4 Files (108.11 kB)\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\importlib_metadata" [label=importlib_metadata]
+	".venv\Lib\site-packages\setuptools\_vendor" -> ".venv\Lib\site-packages\setuptools\_vendor\importlib_metadata"
+	".venv\Lib\site-packages\setuptools\_vendor\importlib_resources" [label=importlib_resources]
+	".venv\Lib\site-packages\setuptools\_vendor" -> ".venv\Lib\site-packages\setuptools\_vendor\importlib_resources"
+	".venv\Lib\site-packages\setuptools\_vendor\jaraco" [label=jaraco]
+	".venv\Lib\site-packages\setuptools\_vendor" -> ".venv\Lib\site-packages\setuptools\_vendor\jaraco"
+	".venv\Lib\site-packages\setuptools\_vendor\more_itertools" [label=more_itertools]
+	".venv\Lib\site-packages\setuptools\_vendor" -> ".venv\Lib\site-packages\setuptools\_vendor\more_itertools"
+	".venv\Lib\site-packages\setuptools\_vendor\packaging" [label=packaging]
+	".venv\Lib\site-packages\setuptools\_vendor" -> ".venv\Lib\site-packages\setuptools\_vendor\packaging"
+	".venv\Lib\site-packages\setuptools\_vendor\pyparsing" [label=pyparsing]
+	".venv\Lib\site-packages\setuptools\_vendor" -> ".venv\Lib\site-packages\setuptools\_vendor\pyparsing"
+	".venv\Lib\site-packages\setuptools\_vendor\tomli" [label=tomli]
+	".venv\Lib\site-packages\setuptools\_vendor" -> ".venv\Lib\site-packages\setuptools\_vendor\tomli"
+	".venv\Lib\site-packages\setuptools\_vendor\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\setuptools\_vendor" -> ".venv\Lib\site-packages\setuptools\_vendor\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_vendor_files_168" [label="ordered_set.py\ltyping_extensions.py\lzipp.py\l__init__.py\l"]
+	".venv\Lib\site-packages\setuptools\_vendor" -> ".venv\Lib\site-packages\setuptools\_vendor_files_168"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_vendor\importlib_metadata" [label="importlib_metadata (120.53 kB)\l1 Folder\l8 Files (41.84 kB)\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\importlib_metadata\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\setuptools\_vendor\importlib_metadata" -> ".venv\Lib\site-packages\setuptools\_vendor\importlib_metadata\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_vendor\importlib_metadata_files_169" [label="_adapters.py\l_collections.py\l_compat.py\l_functools.py\l_itertools.py\l_meta.py\l_text.py\l__init__.py\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\importlib_metadata" -> ".venv\Lib\site-packages\setuptools\_vendor\importlib_metadata_files_169"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_vendor\importlib_metadata\__pycache__" [label="__pycache__ (78.69 kB)\l8 Files (78.69 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_vendor\importlib_metadata\__pycache___files_170" [label="_adapters.cpython-311.pyc\l_collections.cpython-311.pyc\l_compat.cpython-311.pyc\l_functools.cpython-311.pyc\l_itertools.cpython-311.pyc\l_meta.cpython-311.pyc\l_text.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\importlib_metadata\__pycache__" -> ".venv\Lib\site-packages\setuptools\_vendor\importlib_metadata\__pycache___files_170"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_vendor\importlib_resources" [label="importlib_resources (74.81 kB)\l1 Folder\l9 Files (24.53 kB)\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\importlib_resources\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\setuptools\_vendor\importlib_resources" -> ".venv\Lib\site-packages\setuptools\_vendor\importlib_resources\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_vendor\importlib_resources_files_171" [label="abc.py\lreaders.py\lsimple.py\l_adapters.py\l_common.py\l_compat.py\l_itertools.py\l_legacy.py\l__init__.py\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\importlib_resources" -> ".venv\Lib\site-packages\setuptools\_vendor\importlib_resources_files_171"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_vendor\importlib_resources\__pycache__" [label="__pycache__ (50.27 kB)\l9 Files (50.27 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_vendor\importlib_resources\__pycache___files_172" [label="abc.cpython-311.pyc\lreaders.cpython-311.pyc\lsimple.cpython-311.pyc\l_adapters.cpython-311.pyc\l_common.cpython-311.pyc\l_compat.cpython-311.pyc\l_itertools.cpython-311.pyc\l_legacy.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\importlib_resources\__pycache__" -> ".venv\Lib\site-packages\setuptools\_vendor\importlib_resources\__pycache___files_172"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_vendor\jaraco" [label="jaraco (88.8 kB)\l2 Folders\l3 Files (18.49 kB)\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\jaraco\text" [label=text]
+	".venv\Lib\site-packages\setuptools\_vendor\jaraco" -> ".venv\Lib\site-packages\setuptools\_vendor\jaraco\text"
+	".venv\Lib\site-packages\setuptools\_vendor\jaraco\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\setuptools\_vendor\jaraco" -> ".venv\Lib\site-packages\setuptools\_vendor\jaraco\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_vendor\jaraco_files_173" [label="context.py\lfunctools.py\l__init__.py\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\jaraco" -> ".venv\Lib\site-packages\setuptools\_vendor\jaraco_files_173"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_vendor\jaraco\text" [label="text (41.12 kB)\l1 Folder\l1 File (15.15 kB)\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\jaraco\text\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\setuptools\_vendor\jaraco\text" -> ".venv\Lib\site-packages\setuptools\_vendor\jaraco\text\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_vendor\jaraco\text_files_174" [label="__init__.py\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\jaraco\text" -> ".venv\Lib\site-packages\setuptools\_vendor\jaraco\text_files_174"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_vendor\jaraco\text\__pycache__" [label="__pycache__ (25.97 kB)\l1 File (25.97 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_vendor\jaraco\text\__pycache___files_175" [label="__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\jaraco\text\__pycache__" -> ".venv\Lib\site-packages\setuptools\_vendor\jaraco\text\__pycache___files_175"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_vendor\jaraco\__pycache__" [label="__pycache__ (29.19 kB)\l3 Files (29.19 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_vendor\jaraco\__pycache___files_176" [label="context.cpython-311.pyc\lfunctools.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\jaraco\__pycache__" -> ".venv\Lib\site-packages\setuptools\_vendor\jaraco\__pycache___files_176"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_vendor\more_itertools" [label="more_itertools (300.32 kB)\l1 Folder\l3 Files (131.15 kB)\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\more_itertools\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\setuptools\_vendor\more_itertools" -> ".venv\Lib\site-packages\setuptools\_vendor\more_itertools\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_vendor\more_itertools_files_177" [label="more.py\lrecipes.py\l__init__.py\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\more_itertools" -> ".venv\Lib\site-packages\setuptools\_vendor\more_itertools_files_177"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_vendor\more_itertools\__pycache__" [label="__pycache__ (169.17 kB)\l3 Files (169.17 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_vendor\more_itertools\__pycache___files_178" [label="more.cpython-311.pyc\lrecipes.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\more_itertools\__pycache__" -> ".venv\Lib\site-packages\setuptools\_vendor\more_itertools\__pycache___files_178"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_vendor\packaging" [label="packaging (225.46 kB)\l1 Folder\l11 Files (94.06 kB)\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\packaging\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\setuptools\_vendor\packaging" -> ".venv\Lib\site-packages\setuptools\_vendor\packaging\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_vendor\packaging_files_179" [label="markers.py\lrequirements.py\lspecifiers.py\ltags.py\lutils.py\lversion.py\l_manylinux.py\l_musllinux.py\l_structures.py\l__about__.py\l__init__.py\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\packaging" -> ".venv\Lib\site-packages\setuptools\_vendor\packaging_files_179"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_vendor\packaging\__pycache__" [label="__pycache__ (131.4 kB)\l11 Files (131.4 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_vendor\packaging\__pycache___files_180" [label="markers.cpython-311.pyc\lrequirements.cpython-311.pyc\lspecifiers.cpython-311.pyc\ltags.cpython-311.pyc\lutils.cpython-311.pyc\lversion.cpython-311.pyc\l_manylinux.cpython-311.pyc\l_musllinux.cpython-311.pyc\l_structures.cpython-311.pyc\l__about__.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\packaging\__pycache__" -> ".venv\Lib\site-packages\setuptools\_vendor\packaging\__pycache___files_180"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_vendor\pyparsing" [label="pyparsing (839.05 kB)\l2 Folders\l10 Files (338.2 kB)\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\pyparsing\diagram" [label=diagram]
+	".venv\Lib\site-packages\setuptools\_vendor\pyparsing" -> ".venv\Lib\site-packages\setuptools\_vendor\pyparsing\diagram"
+	".venv\Lib\site-packages\setuptools\_vendor\pyparsing\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\setuptools\_vendor\pyparsing" -> ".venv\Lib\site-packages\setuptools\_vendor\pyparsing\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_vendor\pyparsing_files_181" [label="actions.py\lcommon.py\lcore.py\lexceptions.py\lhelpers.py\lresults.py\ltesting.py\lunicode.py\lutil.py\l__init__.py\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\pyparsing" -> ".venv\Lib\site-packages\setuptools\_vendor\pyparsing_files_181"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_vendor\pyparsing\diagram" [label="diagram (50.46 kB)\l1 Folder\l1 File (23.11 kB)\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\pyparsing\diagram\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\setuptools\_vendor\pyparsing\diagram" -> ".venv\Lib\site-packages\setuptools\_vendor\pyparsing\diagram\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_vendor\pyparsing\diagram_files_182" [label="__init__.py\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\pyparsing\diagram" -> ".venv\Lib\site-packages\setuptools\_vendor\pyparsing\diagram_files_182"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_vendor\pyparsing\diagram\__pycache__" [label="__pycache__ (27.34 kB)\l1 File (27.34 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_vendor\pyparsing\diagram\__pycache___files_183" [label="__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\pyparsing\diagram\__pycache__" -> ".venv\Lib\site-packages\setuptools\_vendor\pyparsing\diagram\__pycache___files_183"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_vendor\pyparsing\__pycache__" [label="__pycache__ (450.39 kB)\l10 Files (450.39 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_vendor\pyparsing\__pycache___files_184" [label="actions.cpython-311.pyc\lcommon.cpython-311.pyc\lcore.cpython-311.pyc\lexceptions.cpython-311.pyc\lhelpers.cpython-311.pyc\lresults.cpython-311.pyc\ltesting.cpython-311.pyc\lunicode.cpython-311.pyc\lutil.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\pyparsing\__pycache__" -> ".venv\Lib\site-packages\setuptools\_vendor\pyparsing\__pycache___files_184"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_vendor\tomli" [label="tomli (60.92 kB)\l1 Folder\l4 Files (25.61 kB)\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\tomli\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\setuptools\_vendor\tomli" -> ".venv\Lib\site-packages\setuptools\_vendor\tomli\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_vendor\tomli_files_185" [label="_parser.py\l_re.py\l_types.py\l__init__.py\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\tomli" -> ".venv\Lib\site-packages\setuptools\_vendor\tomli_files_185"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_vendor\tomli\__pycache__" [label="__pycache__ (35.31 kB)\l4 Files (35.31 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_vendor\tomli\__pycache___files_186" [label="_parser.cpython-311.pyc\l_re.cpython-311.pyc\l_types.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\tomli\__pycache__" -> ".venv\Lib\site-packages\setuptools\_vendor\tomli\__pycache___files_186"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\_vendor\__pycache__" [label="__pycache__ (142.14 kB)\l4 Files (142.14 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\_vendor\__pycache___files_187" [label="ordered_set.cpython-311.pyc\ltyping_extensions.cpython-311.pyc\lzipp.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\setuptools\_vendor\__pycache__" -> ".venv\Lib\site-packages\setuptools\_vendor\__pycache___files_187"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools\__pycache__" [label="__pycache__ (371.7 kB)\l30 Files (371.7 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools\__pycache___files_188" [label="archive_util.cpython-311.pyc\lbuild_meta.cpython-311.pyc\ldepends.cpython-311.pyc\ldep_util.cpython-311.pyc\ldiscovery.cpython-311.pyc\ldist.cpython-311.pyc\lerrors.cpython-311.pyc\lextension.cpython-311.pyc\lglob.cpython-311.pyc\linstaller.cpython-311.pyc\llaunch.cpython-311.pyc\llogging.cpython-311.pyc\lmonkey.cpython-311.pyc\lmsvc.cpython-311.pyc\lnamespaces.cpython-311.pyc\lpackage_index.cpython-311.pyc\lpy34compat.cpython-311.pyc\lsandbox.cpython-311.pyc\lunicode_utils.cpython-311.pyc\lversion.cpython-311.pyc\lwheel.cpython-311.pyc\lwindows_support.cpython-311.pyc\l_deprecation_warning.cpython-311.pyc\l_entry_points.cpython-311.pyc\l_imp.cpython-311.pyc\l_importlib.cpython-311.pyc\l_itertools.cpython-311.pyc\l_path.cpython-311.pyc\l_reqs.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\setuptools\__pycache__" -> ".venv\Lib\site-packages\setuptools\__pycache___files_188"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\setuptools-65.5.0.dist-info" [label="setuptools-65.5.0.dist-info (46.8 kB)\l8 Files (46.8 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\setuptools-65.5.0.dist-info_files_189" [label="entry_points.txt\lINSTALLER\lLICENSE\lMETADATA\lRECORD\lREQUESTED\ltop_level.txt\lWHEEL\l"]
+	".venv\Lib\site-packages\setuptools-65.5.0.dist-info" -> ".venv\Lib\site-packages\setuptools-65.5.0.dist-info_files_189"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\urllib3" [label="urllib3 (871.71 kB)\l4 Folders\l13 Files (209.84 kB)\l"]
+	".venv\Lib\site-packages\urllib3\contrib" [label=contrib]
+	".venv\Lib\site-packages\urllib3" -> ".venv\Lib\site-packages\urllib3\contrib"
+	".venv\Lib\site-packages\urllib3\http2" [label=http2]
+	".venv\Lib\site-packages\urllib3" -> ".venv\Lib\site-packages\urllib3\http2"
+	".venv\Lib\site-packages\urllib3\util" [label=util]
+	".venv\Lib\site-packages\urllib3" -> ".venv\Lib\site-packages\urllib3\util"
+	".venv\Lib\site-packages\urllib3\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\urllib3" -> ".venv\Lib\site-packages\urllib3\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\urllib3_files_190" [label="connection.py\lconnectionpool.py\lexceptions.py\lfields.py\lfilepost.py\lpoolmanager.py\lpy.typed\lresponse.py\l_base_connection.py\l_collections.py\l_request_methods.py\l_version.py\l__init__.py\l"]
+	".venv\Lib\site-packages\urllib3" -> ".venv\Lib\site-packages\urllib3_files_190"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\urllib3\contrib" [label="contrib (164.78 kB)\l2 Folders\l3 Files (26.63 kB)\l"]
+	".venv\Lib\site-packages\urllib3\contrib\emscripten" [label=emscripten]
+	".venv\Lib\site-packages\urllib3\contrib" -> ".venv\Lib\site-packages\urllib3\contrib\emscripten"
+	".venv\Lib\site-packages\urllib3\contrib\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\urllib3\contrib" -> ".venv\Lib\site-packages\urllib3\contrib\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\urllib3\contrib_files_191" [label="pyopenssl.py\lsocks.py\l__init__.py\l"]
+	".venv\Lib\site-packages\urllib3\contrib" -> ".venv\Lib\site-packages\urllib3\contrib_files_191"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\urllib3\contrib\emscripten" [label="emscripten (100.65 kB)\l1 Folder\l6 Files (45.02 kB)\l"]
+	".venv\Lib\site-packages\urllib3\contrib\emscripten\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\urllib3\contrib\emscripten" -> ".venv\Lib\site-packages\urllib3\contrib\emscripten\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\urllib3\contrib\emscripten_files_192" [label="connection.py\lemscripten_fetch_worker.js\lfetch.py\lrequest.py\lresponse.py\l__init__.py\l"]
+	".venv\Lib\site-packages\urllib3\contrib\emscripten" -> ".venv\Lib\site-packages\urllib3\contrib\emscripten_files_192"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\urllib3\contrib\emscripten\__pycache__" [label="__pycache__ (55.63 kB)\l5 Files (55.63 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\urllib3\contrib\emscripten\__pycache___files_193" [label="connection.cpython-311.pyc\lfetch.cpython-311.pyc\lrequest.cpython-311.pyc\lresponse.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\urllib3\contrib\emscripten\__pycache__" -> ".venv\Lib\site-packages\urllib3\contrib\emscripten\__pycache___files_193"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\urllib3\contrib\__pycache__" [label="__pycache__ (37.5 kB)\l3 Files (37.5 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\urllib3\contrib\__pycache___files_194" [label="pyopenssl.cpython-311.pyc\lsocks.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\urllib3\contrib\__pycache__" -> ".venv\Lib\site-packages\urllib3\contrib\__pycache___files_194"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\urllib3\http2" [label="http2 (41.82 kB)\l1 Folder\l3 Files (17.04 kB)\l"]
+	".venv\Lib\site-packages\urllib3\http2\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\urllib3\http2" -> ".venv\Lib\site-packages\urllib3\http2\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\urllib3\http2_files_195" [label="connection.py\lprobe.py\l__init__.py\l"]
+	".venv\Lib\site-packages\urllib3\http2" -> ".venv\Lib\site-packages\urllib3\http2_files_195"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\urllib3\http2\__pycache__" [label="__pycache__ (24.78 kB)\l3 Files (24.78 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\urllib3\http2\__pycache___files_196" [label="connection.cpython-311.pyc\lprobe.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\urllib3\http2\__pycache__" -> ".venv\Lib\site-packages\urllib3\http2\__pycache___files_196"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\urllib3\util" [label="util (212.59 kB)\l1 Folder\l13 Files (99.85 kB)\l"]
+	".venv\Lib\site-packages\urllib3\util\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\urllib3\util" -> ".venv\Lib\site-packages\urllib3\util\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\urllib3\util_files_197" [label="connection.py\lproxy.py\lrequest.py\lresponse.py\lretry.py\lssltransport.py\lssl_.py\lssl_match_hostname.py\ltimeout.py\lurl.py\lutil.py\lwait.py\l__init__.py\l"]
+	".venv\Lib\site-packages\urllib3\util" -> ".venv\Lib\site-packages\urllib3\util_files_197"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\urllib3\util\__pycache__" [label="__pycache__ (112.74 kB)\l13 Files (112.74 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\urllib3\util\__pycache___files_198" [label="connection.cpython-311.pyc\lproxy.cpython-311.pyc\lrequest.cpython-311.pyc\lresponse.cpython-311.pyc\lretry.cpython-311.pyc\lssltransport.cpython-311.pyc\lssl_.cpython-311.pyc\lssl_match_hostname.cpython-311.pyc\ltimeout.cpython-311.pyc\lurl.cpython-311.pyc\lutil.cpython-311.pyc\lwait.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\urllib3\util\__pycache__" -> ".venv\Lib\site-packages\urllib3\util\__pycache___files_198"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\urllib3\__pycache__" [label="__pycache__ (242.68 kB)\l12 Files (242.68 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\urllib3\__pycache___files_199" [label="connection.cpython-311.pyc\lconnectionpool.cpython-311.pyc\lexceptions.cpython-311.pyc\lfields.cpython-311.pyc\lfilepost.cpython-311.pyc\lpoolmanager.cpython-311.pyc\lresponse.cpython-311.pyc\l_base_connection.cpython-311.pyc\l_collections.cpython-311.pyc\l_request_methods.cpython-311.pyc\l_version.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\urllib3\__pycache__" -> ".venv\Lib\site-packages\urllib3\__pycache___files_199"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\urllib3-2.4.0.dist-info" [label="urllib3-2.4.0.dist-info (12.86 kB)\l1 Folder\l4 Files (11.8 kB)\l"]
+	".venv\Lib\site-packages\urllib3-2.4.0.dist-info\licenses" [label=licenses]
+	".venv\Lib\site-packages\urllib3-2.4.0.dist-info" -> ".venv\Lib\site-packages\urllib3-2.4.0.dist-info\licenses"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\urllib3-2.4.0.dist-info_files_200" [label="INSTALLER\lMETADATA\lRECORD\lWHEEL\l"]
+	".venv\Lib\site-packages\urllib3-2.4.0.dist-info" -> ".venv\Lib\site-packages\urllib3-2.4.0.dist-info_files_200"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\urllib3-2.4.0.dist-info\licenses" [label="licenses (1.07 kB)\l1 File (1.07 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\urllib3-2.4.0.dist-info\licenses_files_201" [label="LICENSE.txt\l"]
+	".venv\Lib\site-packages\urllib3-2.4.0.dist-info\licenses" -> ".venv\Lib\site-packages\urllib3-2.4.0.dist-info\licenses_files_201"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\_distutils_hack" [label="_distutils_hack (17.22 kB)\l1 Folder\l2 Files (6.03 kB)\l"]
+	".venv\Lib\site-packages\_distutils_hack\__pycache__" [label=__pycache__]
+	".venv\Lib\site-packages\_distutils_hack" -> ".venv\Lib\site-packages\_distutils_hack\__pycache__"
+	node [shape=box style=""]
+	".venv\Lib\site-packages\_distutils_hack_files_202" [label="override.py\l__init__.py\l"]
+	".venv\Lib\site-packages\_distutils_hack" -> ".venv\Lib\site-packages\_distutils_hack_files_202"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Lib\site-packages\_distutils_hack\__pycache__" [label="__pycache__ (11.19 kB)\l2 Files (11.19 kB)\l"]
+	node [shape=box style=""]
+	".venv\Lib\site-packages\_distutils_hack\__pycache___files_203" [label="override.cpython-311.pyc\l__init__.cpython-311.pyc\l"]
+	".venv\Lib\site-packages\_distutils_hack\__pycache__" -> ".venv\Lib\site-packages\_distutils_hack\__pycache___files_203"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	".venv\Scripts" [label="Scripts (969.99 kB)\l10 Files (969.99 kB)\l"]
+	node [shape=box style=""]
+	".venv\Scripts_files_204" [label="activate\lactivate.bat\lActivate.ps1\ldeactivate.bat\lnormalizer.exe\lpip.exe\lpip3.11.exe\lpip3.exe\lpython.exe\lpythonw.exe\l"]
+	".venv\Scripts" -> ".venv\Scripts_files_204"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	CAM [label="CAM (153.25 GB)\l3 Folders\l"]
+	"CAM\Cam1_240422_240510" [label=Cam1_240422_240510]
+	CAM -> "CAM\Cam1_240422_240510"
+	"CAM\Cam2_240423_240510" [label=Cam2_240423_240510]
+	CAM -> "CAM\Cam2_240423_240510"
+	"CAM\Cam3_240121_240510" [label=Cam3_240121_240510]
+	CAM -> "CAM\Cam3_240121_240510"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	"CAM\Cam1_240422_240510" [label="Cam1_240422_240510 (6.18 GB)\l3 Folders\l56 Files (3.12 GB)\l"]
+	"CAM\Cam1_240422_240510\clips" [label=clips]
+	"CAM\Cam1_240422_240510" -> "CAM\Cam1_240422_240510\clips"
+	"CAM\Cam1_240422_240510\index" [label=index]
+	"CAM\Cam1_240422_240510" -> "CAM\Cam1_240422_240510\index"
+	"CAM\Cam1_240422_240510\MP4" [label=MP4]
+	"CAM\Cam1_240422_240510" -> "CAM\Cam1_240422_240510\MP4"
+	node [shape=box style=""]
+	"CAM\Cam1_240422_240510_files_205" [label="240422_20.04.39_20.04.49_M.avx\l240423_19.54.43_20.24.43_M.avx\l240423_20.24.44_20.54.44_M.avx\l240423_20.54.45_21.24.45_M.avx\l240423_21.24.46_21.54.46_M.avx\l240423_21.54.47_22.11.53_M.avx\l240423_22.31.17_23.00.14_M.avx\l240424_07.05.53_07.35.53_M.avx\l240424_07.35.54_08.05.54_M.avx\l240424_08.05.55_08.09.33_M.avx\l240429_17.54.15_18.24.15_M.avx\l240429_18.24.16_18.54.16_M.avx\l240429_18.54.17_19.24.17_M.avx\l240429_19.24.18_19.36.07_M.avx\l240509_16.46.22_16.58.16_M.avx\l240509_16.58.44_17.28.44_M.avx\l240509_17.28.45_17.58.45_M.avx\l240509_17.58.46_18.28.46_M.avx\l240509_18.28.47_18.58.47_M.avx\l240509_18.58.48_19.28.48_M.avx\l240509_19.28.49_19.58.49_M.avx\l240509_19.58.50_20.28.50_M.avx\l240509_20.28.51_20.58.51_M.avx\l240509_20.58.52_21.08.55_M.avx\l240509_21.09.18_21.39.18_M.avx\l240509_21.39.19_22.09.19_M.avx\l240509_22.09.20_22.39.20_M.avx\l240509_22.39.21_23.09.21_M.avx\l240509_23.09.22_23.17.09_M.avx\l240509_23.17.35_23.47.35_M.avx\l240509_23.47.36_23.59.59_M.avx\l240510_00.00.00_00.12.15_M.avx\l240510_08.14.24_08.44.24_M.avx\l240510_08.44.25_09.14.25_M.avx\l240510_09.14.26_09.44.26_M.avx\l240510_09.44.27_10.14.27_M.avx\l240510_10.14.28_10.44.28_M.avx\l240510_10.44.29_11.14.30_M.avx\l240510_11.14.31_11.44.31_M.avx\l240510_11.44.32_12.14.32_M.avx\l240510_12.14.33_12.44.33_M.avx\l240510_12.44.34_13.14.34_M.avx\l240510_13.14.35_13.44.35_M.avx\l240510_13.44.36_14.14.36_M.avx\l240510_14.14.37_14.44.37_M.avx\l240510_14.44.38_15.14.38_M.avx\l240510_15.14.39_15.44.39_M.avx\l240510_15.44.40_16.14.40_M.avx\l240510_16.14.41_16.44.41_M.avx\l240510_16.44.42_17.14.42_M.avx\l240510_17.14.43_17.44.43_M.avx\l240510_17.44.44_18.14.44_M.avx\l240510_18.14.45_18.44.45_M.avx\l240510_18.44.46_19.14.46_M.avx\l240510_19.14.47_19.44.47_M.avx\l240510_19.44.48_20.10.12_M.avx\l"]
+	"CAM\Cam1_240422_240510" -> "CAM\Cam1_240422_240510_files_205"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	"CAM\Cam1_240422_240510\clips" [label="clips (0 bytes)\l"]
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	"CAM\Cam1_240422_240510\index" [label="index (16.41 kB)\l2 Files (16.41 kB)\l"]
+	node [shape=box style=""]
+	"CAM\Cam1_240422_240510\index_files_206" [label="enclist\lfilelist\l"]
+	"CAM\Cam1_240422_240510\index" -> "CAM\Cam1_240422_240510\index_files_206"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	"CAM\Cam1_240422_240510\MP4" [label="MP4 (3.06 GB)\l56 Files (3.06 GB)\l"]
+	node [shape=box style=""]
+	"CAM\Cam1_240422_240510\MP4_files_207" [label="240422_20.04.39_20.04.49_M.mp4\l240423_19.54.43_20.24.43_M.mp4\l240423_20.24.44_20.54.44_M.mp4\l240423_20.54.45_21.24.45_M.mp4\l240423_21.24.46_21.54.46_M.mp4\l240423_21.54.47_22.11.53_M.mp4\l240423_22.31.17_23.00.14_M.mp4\l240424_07.05.53_07.35.53_M.mp4\l240424_07.35.54_08.05.54_M.mp4\l240424_08.05.55_08.09.33_M.mp4\l240429_17.54.15_18.24.15_M.mp4\l240429_18.24.16_18.54.16_M.mp4\l240429_18.54.17_19.24.17_M.mp4\l240429_19.24.18_19.36.07_M.mp4\l240509_16.46.22_16.58.16_M.mp4\l240509_16.58.44_17.28.44_M.mp4\l240509_17.28.45_17.58.45_M.mp4\l240509_17.58.46_18.28.46_M.mp4\l240509_18.28.47_18.58.47_M.mp4\l240509_18.58.48_19.28.48_M.mp4\l240509_19.28.49_19.58.49_M.mp4\l240509_19.58.50_20.28.50_M.mp4\l240509_20.28.51_20.58.51_M.mp4\l240509_20.58.52_21.08.55_M.mp4\l240509_21.09.18_21.39.18_M.mp4\l240509_21.39.19_22.09.19_M.mp4\l240509_22.09.20_22.39.20_M.mp4\l240509_22.39.21_23.09.21_M.mp4\l240509_23.09.22_23.17.09_M.mp4\l240509_23.17.35_23.47.35_M.mp4\l240509_23.47.36_23.59.59_M.mp4\l240510_00.00.00_00.12.15_M.mp4\l240510_08.14.24_08.44.24_M.mp4\l240510_08.44.25_09.14.25_M.mp4\l240510_09.14.26_09.44.26_M.mp4\l240510_09.44.27_10.14.27_M.mp4\l240510_10.14.28_10.44.28_M.mp4\l240510_10.44.29_11.14.30_M.mp4\l240510_11.14.31_11.44.31_M.mp4\l240510_11.44.32_12.14.32_M.mp4\l240510_12.14.33_12.44.33_M.mp4\l240510_12.44.34_13.14.34_M.mp4\l240510_13.14.35_13.44.35_M.mp4\l240510_13.44.36_14.14.36_M.mp4\l240510_14.14.37_14.44.37_M.mp4\l240510_14.44.38_15.14.38_M.mp4\l240510_15.14.39_15.44.39_M.mp4\l240510_15.44.40_16.14.40_M.mp4\l240510_16.14.41_16.44.41_M.mp4\l240510_16.44.42_17.14.42_M.mp4\l240510_17.14.43_17.44.43_M.mp4\l240510_17.44.44_18.14.44_M.mp4\l240510_18.14.45_18.44.45_M.mp4\l240510_18.44.46_19.14.46_M.mp4\l240510_19.14.47_19.44.47_M.mp4\l240510_19.44.48_20.10.12_M.mp4\l"]
+	"CAM\Cam1_240422_240510\MP4" -> "CAM\Cam1_240422_240510\MP4_files_207"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	"CAM\Cam2_240423_240510" [label="Cam2_240423_240510 (53.8 GB)\l3 Folders\l170 Files (26.98 GB)\l"]
+	"CAM\Cam2_240423_240510\clips" [label=clips]
+	"CAM\Cam2_240423_240510" -> "CAM\Cam2_240423_240510\clips"
+	"CAM\Cam2_240423_240510\index" [label=index]
+	"CAM\Cam2_240423_240510" -> "CAM\Cam2_240423_240510\index"
+	"CAM\Cam2_240423_240510\MP4" [label=MP4]
+	"CAM\Cam2_240423_240510" -> "CAM\Cam2_240423_240510\MP4"
+	node [shape=box style=""]
+	"CAM\Cam2_240423_240510_files_208" [label="240423_05.23.45_05.23.55_M.avx\l240423_07.03.02_07.08.41_M.avx\l240423_07.10.58_07.29.13_M.avx\l240423_09.53.27_10.23.27_M.avx\l240423_10.23.28_10.53.28_M.avx\l240423_10.53.29_11.23.29_M.avx\l240423_11.23.30_11.53.30_M.avx\l240423_11.53.31_12.23.31_M.avx\l240423_12.23.32_12.53.32_M.avx\l240423_12.53.33_13.23.33_M.avx\l240423_13.23.34_13.53.34_M.avx\l240423_13.53.35_14.23.35_M.avx\l240423_14.23.36_14.53.36_M.avx\l240423_14.53.37_15.23.37_M.avx\l240423_15.23.38_15.53.38_M.avx\l240423_15.53.39_16.23.39_M.avx\l240423_16.23.40_16.53.40_M.avx\l240423_16.53.41_17.23.41_M.avx\l240423_17.23.42_17.53.42_M.avx\l240423_17.53.43_18.23.43_M.avx\l240423_18.23.44_18.32.42_M.avx\l240423_19.54.27_20.24.27_M.avx\l240423_20.24.28_20.54.28_M.avx\l240423_20.54.29_21.24.29_M.avx\l240423_21.24.30_21.54.30_M.avx\l240423_21.54.31_22.11.33_M.avx\l240423_22.29.11_22.59.11_M.avx\l240423_22.59.12_22.59.59_M.avx\l240424_06.36.18_06.51.02_M.avx\l240424_06.55.46_06.59.38_M.avx\l240424_07.00.01_07.30.01_M.avx\l240424_07.30.02_08.00.02_M.avx\l240424_08.00.03_08.09.26_M.avx\l240424_10.24.45_10.54.45_M.avx\l240424_10.54.46_11.24.46_M.avx\l240424_11.24.47_11.54.47_M.avx\l240424_11.54.48_12.24.48_M.avx\l240424_12.24.49_12.54.49_M.avx\l240424_12.54.50_13.24.50_M.avx\l240424_13.24.51_13.37.09_M.avx\l240424_17.46.13_17.46.27_M.avx\l240424_17.46.30_17.46.45_M.avx\l240424_21.34.05_21.35.45_M.avx\l240425_13.14.50_13.44.50_M.avx\l240425_13.44.51_14.02.57_M.avx\l240426_09.52.30_10.22.30_M.avx\l240426_10.22.31_10.52.31_M.avx\l240426_10.52.32_11.22.32_M.avx\l240426_11.22.33_11.52.33_M.avx\l240426_11.52.34_12.22.34_M.avx\l240426_12.22.35_12.52.35_M.avx\l240426_12.52.36_13.22.36_M.avx\l240426_13.22.37_13.52.37_M.avx\l240426_13.52.38_14.22.39_M.avx\l240426_14.22.40_14.52.40_M.avx\l240426_14.52.41_15.22.41_M.avx\l240426_15.22.42_15.33.08_M.avx\l240429_06.53.47_07.23.38_M.avx\l240429_17.22.05_17.52.05_M.avx\l240429_17.52.06_18.22.06_M.avx\l240429_18.22.07_18.52.07_M.avx\l240429_18.52.08_19.05.29_M.avx\l240429_19.33.27_19.33.51_M.avx\l240429_20.47.18_20.50.36_M.avx\l240429_21.35.31_22.03.32_M.avx\l240430_07.00.04_07.28.12_M.avx\l240430_07.30.06_08.00.06_M.avx\l240430_08.00.07_08.04.38_M.avx\l240430_18.51.50_19.21.50_M.avx\l240430_19.21.51_19.51.51_M.avx\l240430_19.51.52_20.21.52_M.avx\l240430_20.21.53_20.51.53_M.avx\l240430_20.51.54_21.21.54_M.avx\l240430_21.21.55_21.51.55_M.avx\l240430_21.51.56_22.21.56_M.avx\l240430_22.21.57_22.51.57_M.avx\l240430_22.51.58_23.21.58_M.avx\l240430_23.21.59_23.51.55_M.avx\l240501_01.23.42_01.53.42_M.avx\l240501_01.53.43_02.23.43_M.avx\l240501_02.23.44_02.40.06_M.avx\l240501_08.31.53_09.01.53_M.avx\l240501_09.01.54_09.06.56_M.avx\l240501_20.57.42_20.59.11_M.avx\l240501_21.04.12_21.34.12_M.avx\l240501_21.34.13_22.04.13_M.avx\l240501_22.04.14_22.34.14_M.avx\l240501_22.34.15_23.04.15_M.avx\l240501_23.04.16_23.34.16_M.avx\l240501_23.34.17_23.59.59_M.avx\l240502_00.00.00_00.30.00_M.avx\l240502_00.30.01_01.00.01_M.avx\l240502_01.00.02_01.30.02_M.avx\l240502_01.30.03_02.00.03_M.avx\l240502_02.00.04_02.30.04_M.avx\l240502_02.30.05_03.00.05_M.avx\l240502_03.00.06_03.30.06_M.avx\l240502_03.30.07_04.00.07_M.avx\l240502_04.00.08_04.30.08_M.avx\l240502_04.30.09_05.00.09_M.avx\l240502_05.00.10_05.08.03_M.avx\l240502_07.30.35_08.00.36_M.avx\l240502_08.00.37_08.01.15_M.avx\l240502_20.48.42_20.49.17_M.avx\l240503_08.36.30_08.38.27_M.avx\l240503_23.20.15_23.32.46_M.avx\l240503_23.33.09_23.38.51_M.avx\l240504_08.45.18_09.01.15_M.avx\l240504_09.28.18_09.33.23_M.avx\l240504_22.25.37_22.35.08_M.avx\l240505_16.17.22_16.42.56_M.avx\l240506_07.34.10_08.04.10_M.avx\l240506_08.04.11_08.10.33_M.avx\l240508_08.32.17_08.36.55_M.avx\l240508_08.44.31_09.07.39_M.avx\l240509_16.46.33_17.16.33_M.avx\l240509_17.16.34_17.46.34_M.avx\l240509_17.46.35_18.16.35_M.avx\l240509_18.16.36_18.46.36_M.avx\l240509_18.46.37_19.16.37_M.avx\l240509_19.16.38_19.46.38_M.avx\l240509_19.46.39_20.16.39_M.avx\l240509_20.16.40_20.46.40_M.avx\l240509_20.46.41_20.54.29_M.avx\l240509_20.54.50_21.24.51_M.avx\l240509_21.24.52_21.54.52_M.avx\l240509_21.54.53_22.24.53_M.avx\l240509_22.24.54_22.54.54_M.avx\l240509_22.54.55_23.24.55_M.avx\l240509_23.24.56_23.41.11_M.avx\l240509_23.41.34_23.59.59_M.avx\l240510_00.00.00_00.30.00_M.avx\l240510_00.30.01_01.00.01_M.avx\l240510_01.00.02_01.30.02_M.avx\l240510_01.30.03_02.00.03_M.avx\l240510_02.00.04_02.30.04_M.avx\l240510_02.30.05_03.00.05_M.avx\l240510_03.00.06_03.30.06_M.avx\l240510_03.30.07_04.00.07_M.avx\l240510_04.00.08_04.30.08_M.avx\l240510_04.30.09_05.00.09_M.avx\l240510_05.00.10_05.30.10_M.avx\l240510_05.30.11_06.00.11_M.avx\l240510_06.00.12_06.30.12_M.avx\l240510_06.30.13_06.45.57_M.avx\l240510_08.14.32_08.44.32_M.avx\l240510_08.44.33_09.14.33_M.avx\l240510_09.14.34_09.44.34_M.avx\l240510_09.44.35_10.14.35_M.avx\l240510_10.14.36_10.44.36_M.avx\l240510_10.44.37_11.14.37_M.avx\l240510_11.14.38_11.44.38_M.avx\l240510_11.44.39_12.14.39_M.avx\l240510_12.14.40_12.44.40_M.avx\l240510_12.44.41_13.14.41_M.avx\l240510_13.14.42_13.44.43_M.avx\l240510_13.44.44_14.14.44_M.avx\l240510_14.14.45_14.44.45_M.avx\l240510_14.44.46_15.14.46_M.avx\l240510_15.14.47_15.44.47_M.avx\l240510_15.44.48_16.14.48_M.avx\l240510_16.14.49_16.44.49_M.avx\l240510_16.44.50_17.14.50_M.avx\l240510_17.14.51_17.44.51_M.avx\l240510_17.44.52_18.14.52_M.avx\l240510_18.14.53_18.44.53_M.avx\l240510_18.44.54_19.14.54_M.avx\l240510_19.14.55_19.44.55_M.avx\l240510_19.44.56_20.09.58_M.avx\l240510_20.12.41_20.13.33_M.avx\l"]
+	"CAM\Cam2_240423_240510" -> "CAM\Cam2_240423_240510_files_208"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	"CAM\Cam2_240423_240510\clips" [label="clips (0 bytes)\l"]
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	"CAM\Cam2_240423_240510\index" [label="index (49.8 kB)\l2 Files (49.8 kB)\l"]
+	node [shape=box style=""]
+	"CAM\Cam2_240423_240510\index_files_209" [label="enclist\lfilelist\l"]
+	"CAM\Cam2_240423_240510\index" -> "CAM\Cam2_240423_240510\index_files_209"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	"CAM\Cam2_240423_240510\MP4" [label="MP4 (26.82 GB)\l170 Files (26.82 GB)\l"]
+	node [shape=box style=""]
+	"CAM\Cam2_240423_240510\MP4_files_210" [label="240423_05.23.45_05.23.55_M.mp4\l240423_07.03.02_07.08.41_M.mp4\l240423_07.10.58_07.29.13_M.mp4\l240423_09.53.27_10.23.27_M.mp4\l240423_10.23.28_10.53.28_M.mp4\l240423_10.53.29_11.23.29_M.mp4\l240423_11.23.30_11.53.30_M.mp4\l240423_11.53.31_12.23.31_M.mp4\l240423_12.23.32_12.53.32_M.mp4\l240423_12.53.33_13.23.33_M.mp4\l240423_13.23.34_13.53.34_M.mp4\l240423_13.53.35_14.23.35_M.mp4\l240423_14.23.36_14.53.36_M.mp4\l240423_14.53.37_15.23.37_M.mp4\l240423_15.23.38_15.53.38_M.mp4\l240423_15.53.39_16.23.39_M.mp4\l240423_16.23.40_16.53.40_M.mp4\l240423_16.53.41_17.23.41_M.mp4\l240423_17.23.42_17.53.42_M.mp4\l240423_17.53.43_18.23.43_M.mp4\l240423_18.23.44_18.32.42_M.mp4\l240423_19.54.27_20.24.27_M.mp4\l240423_20.24.28_20.54.28_M.mp4\l240423_20.54.29_21.24.29_M.mp4\l240423_21.24.30_21.54.30_M.mp4\l240423_21.54.31_22.11.33_M.mp4\l240423_22.29.11_22.59.11_M.mp4\l240423_22.59.12_22.59.59_M.mp4\l240424_06.36.18_06.51.02_M.mp4\l240424_06.55.46_06.59.38_M.mp4\l240424_07.00.01_07.30.01_M.mp4\l240424_07.30.02_08.00.02_M.mp4\l240424_08.00.03_08.09.26_M.mp4\l240424_10.24.45_10.54.45_M.mp4\l240424_10.54.46_11.24.46_M.mp4\l240424_11.24.47_11.54.47_M.mp4\l240424_11.54.48_12.24.48_M.mp4\l240424_12.24.49_12.54.49_M.mp4\l240424_12.54.50_13.24.50_M.mp4\l240424_13.24.51_13.37.09_M.mp4\l240424_17.46.13_17.46.27_M.mp4\l240424_17.46.30_17.46.45_M.mp4\l240424_21.34.05_21.35.45_M.mp4\l240425_13.14.50_13.44.50_M.mp4\l240425_13.44.51_14.02.57_M.mp4\l240426_09.52.30_10.22.30_M.mp4\l240426_10.22.31_10.52.31_M.mp4\l240426_10.52.32_11.22.32_M.mp4\l240426_11.22.33_11.52.33_M.mp4\l240426_11.52.34_12.22.34_M.mp4\l240426_12.22.35_12.52.35_M.mp4\l240426_12.52.36_13.22.36_M.mp4\l240426_13.22.37_13.52.37_M.mp4\l240426_13.52.38_14.22.39_M.mp4\l240426_14.22.40_14.52.40_M.mp4\l240426_14.52.41_15.22.41_M.mp4\l240426_15.22.42_15.33.08_M.mp4\l240429_06.53.47_07.23.38_M.mp4\l240429_17.22.05_17.52.05_M.mp4\l240429_17.52.06_18.22.06_M.mp4\l240429_18.22.07_18.52.07_M.mp4\l240429_18.52.08_19.05.29_M.mp4\l240429_19.33.27_19.33.51_M.mp4\l240429_20.47.18_20.50.36_M.mp4\l240429_21.35.31_22.03.32_M.mp4\l240430_07.00.04_07.28.12_M.mp4\l240430_07.30.06_08.00.06_M.mp4\l240430_08.00.07_08.04.38_M.mp4\l240430_18.51.50_19.21.50_M.mp4\l240430_19.21.51_19.51.51_M.mp4\l240430_19.51.52_20.21.52_M.mp4\l240430_20.21.53_20.51.53_M.mp4\l240430_20.51.54_21.21.54_M.mp4\l240430_21.21.55_21.51.55_M.mp4\l240430_21.51.56_22.21.56_M.mp4\l240430_22.21.57_22.51.57_M.mp4\l240430_22.51.58_23.21.58_M.mp4\l240430_23.21.59_23.51.55_M.mp4\l240501_01.23.42_01.53.42_M.mp4\l240501_01.53.43_02.23.43_M.mp4\l240501_02.23.44_02.40.06_M.mp4\l240501_08.31.53_09.01.53_M.mp4\l240501_09.01.54_09.06.56_M.mp4\l240501_20.57.42_20.59.11_M.mp4\l240501_21.04.12_21.34.12_M.mp4\l240501_21.34.13_22.04.13_M.mp4\l240501_22.04.14_22.34.14_M.mp4\l240501_22.34.15_23.04.15_M.mp4\l240501_23.04.16_23.34.16_M.mp4\l240501_23.34.17_23.59.59_M.mp4\l240502_00.00.00_00.30.00_M.mp4\l240502_00.30.01_01.00.01_M.mp4\l240502_01.00.02_01.30.02_M.mp4\l240502_01.30.03_02.00.03_M.mp4\l240502_02.00.04_02.30.04_M.mp4\l240502_02.30.05_03.00.05_M.mp4\l240502_03.00.06_03.30.06_M.mp4\l240502_03.30.07_04.00.07_M.mp4\l240502_04.00.08_04.30.08_M.mp4\l240502_04.30.09_05.00.09_M.mp4\l240502_05.00.10_05.08.03_M.mp4\l240502_07.30.35_08.00.36_M.mp4\l240502_08.00.37_08.01.15_M.mp4\l240502_20.48.42_20.49.17_M.mp4\l240503_08.36.30_08.38.27_M.mp4\l240503_23.20.15_23.32.46_M.mp4\l240503_23.33.09_23.38.51_M.mp4\l240504_08.45.18_09.01.15_M.mp4\l240504_09.28.18_09.33.23_M.mp4\l240504_22.25.37_22.35.08_M.mp4\l240505_16.17.22_16.42.56_M.mp4\l240506_07.34.10_08.04.10_M.mp4\l240506_08.04.11_08.10.33_M.mp4\l240508_08.32.17_08.36.55_M.mp4\l240508_08.44.31_09.07.39_M.mp4\l240509_16.46.33_17.16.33_M.mp4\l240509_17.16.34_17.46.34_M.mp4\l240509_17.46.35_18.16.35_M.mp4\l240509_18.16.36_18.46.36_M.mp4\l240509_18.46.37_19.16.37_M.mp4\l240509_19.16.38_19.46.38_M.mp4\l240509_19.46.39_20.16.39_M.mp4\l240509_20.16.40_20.46.40_M.mp4\l240509_20.46.41_20.54.29_M.mp4\l240509_20.54.50_21.24.51_M.mp4\l240509_21.24.52_21.54.52_M.mp4\l240509_21.54.53_22.24.53_M.mp4\l240509_22.24.54_22.54.54_M.mp4\l240509_22.54.55_23.24.55_M.mp4\l240509_23.24.56_23.41.11_M.mp4\l240509_23.41.34_23.59.59_M.mp4\l240510_00.00.00_00.30.00_M.mp4\l240510_00.30.01_01.00.01_M.mp4\l240510_01.00.02_01.30.02_M.mp4\l240510_01.30.03_02.00.03_M.mp4\l240510_02.00.04_02.30.04_M.mp4\l240510_02.30.05_03.00.05_M.mp4\l240510_03.00.06_03.30.06_M.mp4\l240510_03.30.07_04.00.07_M.mp4\l240510_04.00.08_04.30.08_M.mp4\l240510_04.30.09_05.00.09_M.mp4\l240510_05.00.10_05.30.10_M.mp4\l240510_05.30.11_06.00.11_M.mp4\l240510_06.00.12_06.30.12_M.mp4\l240510_06.30.13_06.45.57_M.mp4\l240510_08.14.32_08.44.32_M.mp4\l240510_08.44.33_09.14.33_M.mp4\l240510_09.14.34_09.44.34_M.mp4\l240510_09.44.35_10.14.35_M.mp4\l240510_10.14.36_10.44.36_M.mp4\l240510_10.44.37_11.14.37_M.mp4\l240510_11.14.38_11.44.38_M.mp4\l240510_11.44.39_12.14.39_M.mp4\l240510_12.14.40_12.44.40_M.mp4\l240510_12.44.41_13.14.41_M.mp4\l240510_13.14.42_13.44.43_M.mp4\l240510_13.44.44_14.14.44_M.mp4\l240510_14.14.45_14.44.45_M.mp4\l240510_14.44.46_15.14.46_M.mp4\l240510_15.14.47_15.44.47_M.mp4\l240510_15.44.48_16.14.48_M.mp4\l240510_16.14.49_16.44.49_M.mp4\l240510_16.44.50_17.14.50_M.mp4\l240510_17.14.51_17.44.51_M.mp4\l240510_17.44.52_18.14.52_M.mp4\l240510_18.14.53_18.44.53_M.mp4\l240510_18.44.54_19.14.54_M.mp4\l240510_19.14.55_19.44.55_M.mp4\l240510_19.44.56_20.09.58_M.mp4\l240510_20.12.41_20.13.33_M.mp4\l"]
+	"CAM\Cam2_240423_240510\MP4" -> "CAM\Cam2_240423_240510\MP4_files_210"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	"CAM\Cam3_240121_240510" [label="Cam3_240121_240510 (93.26 GB)\l3 Folders\l147 Files (47.52 GB)\l"]
+	"CAM\Cam3_240121_240510\clips" [label=clips]
+	"CAM\Cam3_240121_240510" -> "CAM\Cam3_240121_240510\clips"
+	"CAM\Cam3_240121_240510\index" [label=index]
+	"CAM\Cam3_240121_240510" -> "CAM\Cam3_240121_240510\index"
+	"CAM\Cam3_240121_240510\MP4" [label=MP4]
+	"CAM\Cam3_240121_240510" -> "CAM\Cam3_240121_240510\MP4"
+	node [shape=box style=""]
+	"CAM\Cam3_240121_240510_files_211" [label="200808_02.08.51_02.19.08_M.avx\l200808_02.19.27_02.49.27_M.avx\l200808_02.49.28_01.14.36_M.avx\l240131_18.10.41_18.40.41_M.avx\l240131_18.40.42_19.10.42_M.avx\l240131_19.10.45_19.40.48_M.avx\l240131_19.40.49_20.10.49_M.avx\l240131_20.10.50_20.36.56_M.avx\l240131_20.37.28_21.07.28_M.avx\l240131_21.07.29_21.37.29_M.avx\l240131_21.37.30_22.07.30_M.avx\l240131_22.07.31_22.37.31_M.avx\l240131_22.37.32_23.07.32_M.avx\l240131_23.07.33_23.37.33_M.avx\l240131_23.37.34_23.59.59_M.avx\l240201_00.00.00_00.04.03_M.avx\l240402_15.22.02_15.52.02_M.avx\l240402_15.52.03_16.22.03_M.avx\l240402_16.22.04_16.52.04_M.avx\l240402_16.52.05_16.59.00_M.avx\l240408_07.45.37_08.15.37_M.avx\l240408_08.15.38_08.34.49_M.avx\l240416_20.58.38_21.22.28_M.avx\l240416_21.35.44_22.05.44_M.avx\l240416_22.05.45_22.35.45_M.avx\l240416_22.35.46_23.05.46_M.avx\l240416_23.05.47_23.35.47_M.avx\l240416_23.35.48_23.59.59_M.avx\l240417_00.00.00_00.30.00_M.avx\l240417_00.30.01_00.49.21_M.avx\l240417_07.44.46_08.14.47_M.avx\l240417_08.14.48_08.44.48_M.avx\l240417_08.44.49_09.14.49_M.avx\l240417_09.14.50_09.44.50_M.avx\l240417_09.44.51_10.14.51_M.avx\l240417_10.14.52_10.44.52_M.avx\l240417_10.44.53_11.14.53_M.avx\l240417_11.14.54_11.44.55_M.avx\l240417_11.44.56_12.01.14_M.avx\l240418_01.50.30_01.52.42_M.avx\l240418_08.19.51_08.49.51_M.avx\l240418_08.49.52_09.09.21_M.avx\l240418_10.08.20_10.38.20_M.avx\l240418_10.38.21_11.08.21_M.avx\l240418_11.08.22_11.38.22_M.avx\l240418_11.38.23_12.08.23_M.avx\l240418_12.08.24_12.38.24_M.avx\l240418_12.38.25_13.08.25_M.avx\l240418_13.08.26_13.34.38_M.avx\l240423_07.02.54_07.29.19_M.avx\l240423_19.54.36_20.24.36_M.avx\l240423_20.24.37_20.54.37_M.avx\l240423_20.54.38_21.24.38_M.avx\l240423_21.24.39_21.54.39_M.avx\l240423_21.54.40_22.11.39_M.avx\l240424_10.03.52_10.24.37_M.avx\l240424_10.36.26_11.06.26_M.avx\l240424_11.06.27_11.36.27_M.avx\l240424_11.36.28_12.06.28_M.avx\l240424_12.06.29_12.36.29_M.avx\l240424_12.36.30_13.06.30_M.avx\l240424_13.06.31_13.36.31_M.avx\l240424_13.36.32_13.37.02_M.avx\l240424_14.14.24_14.44.24_M.avx\l240424_14.44.25_15.06.58_M.avx\l240425_15.50.08_16.06.47_M.avx\l240426_11.03.00_11.33.00_M.avx\l240426_11.33.01_12.03.01_M.avx\l240426_12.03.02_12.33.02_M.avx\l240426_12.33.03_13.03.03_M.avx\l240426_13.03.04_13.33.04_M.avx\l240426_13.33.05_14.03.05_M.avx\l240426_14.03.06_14.33.06_M.avx\l240426_14.33.07_15.03.07_M.avx\l240426_15.03.08_15.33.08_M.avx\l240426_15.33.09_15.33.15_M.avx\l240429_17.54.34_18.24.34_M.avx\l240429_18.24.35_18.54.35_M.avx\l240429_18.54.36_19.24.36_M.avx\l240429_19.24.37_19.36.20_M.avx\l240430_07.00.33_07.30.33_M.avx\l240430_07.30.34_08.00.34_M.avx\l240430_08.00.35_08.04.52_M.avx\l240430_18.51.56_19.21.56_M.avx\l240430_19.21.57_19.51.57_M.avx\l240430_19.51.58_20.21.58_M.avx\l240430_20.21.59_20.51.59_M.avx\l240430_20.52.00_21.22.00_M.avx\l240430_21.22.01_21.52.01_M.avx\l240430_21.52.02_22.22.02_M.avx\l240430_22.22.03_22.52.03_M.avx\l240430_22.52.04_23.22.04_M.avx\l240430_23.22.05_23.52.02_M.avx\l240507_10.43.00_11.04.40_M.avx\l240509_16.46.39_17.16.39_M.avx\l240509_17.16.40_17.46.40_M.avx\l240509_17.46.41_18.16.41_M.avx\l240509_18.16.42_18.46.42_M.avx\l240509_18.46.43_19.16.43_M.avx\l240509_19.16.44_19.46.44_M.avx\l240509_19.46.45_20.16.45_M.avx\l240509_20.16.46_20.46.46_M.avx\l240509_20.46.47_21.16.47_M.avx\l240509_21.16.48_21.44.46_M.avx\l240509_21.45.03_21.52.43_M.avx\l240509_21.53.02_22.23.02_M.avx\l240509_22.23.03_22.53.03_M.avx\l240509_22.53.04_23.23.04_M.avx\l240509_23.23.05_23.53.05_M.avx\l240509_23.53.06_23.59.59_M.avx\l240510_00.00.00_00.13.42_M.avx\l240510_01.14.37_01.44.37_M.avx\l240510_01.44.38_02.14.38_M.avx\l240510_02.14.39_02.44.39_M.avx\l240510_02.44.40_03.14.40_M.avx\l240510_03.14.41_03.44.41_M.avx\l240510_03.44.42_04.14.42_M.avx\l240510_04.14.43_04.44.43_M.avx\l240510_04.44.44_05.14.44_M.avx\l240510_05.14.45_05.44.45_M.avx\l240510_05.44.46_06.14.46_M.avx\l240510_06.14.47_06.44.47_M.avx\l240510_06.44.48_06.46.04_M.avx\l240510_08.14.37_08.44.37_M.avx\l240510_08.44.38_09.14.38_M.avx\l240510_09.14.39_09.44.39_M.avx\l240510_09.44.40_10.14.40_M.avx\l240510_10.14.41_10.44.41_M.avx\l240510_10.44.42_11.14.42_M.avx\l240510_11.14.43_11.44.43_M.avx\l240510_11.44.44_12.14.44_M.avx\l240510_12.14.45_12.44.45_M.avx\l240510_12.44.46_13.14.46_M.avx\l240510_13.14.47_13.44.47_M.avx\l240510_13.44.48_14.14.48_M.avx\l240510_14.14.49_14.44.49_M.avx\l240510_14.44.50_15.14.50_M.avx\l240510_15.14.51_15.44.51_M.avx\l240510_15.44.52_16.14.52_M.avx\l240510_16.14.53_16.44.53_M.avx\l240510_16.44.54_17.14.54_M.avx\l240510_17.14.55_17.44.55_M.avx\l240510_17.44.56_18.14.56_M.avx\l240510_18.14.57_18.44.57_M.avx\l240510_18.44.58_19.14.58_M.avx\l240510_19.14.59_19.44.59_M.avx\l240510_19.45.00_20.10.22_M.avx\l"]
+	"CAM\Cam3_240121_240510" -> "CAM\Cam3_240121_240510_files_211"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	"CAM\Cam3_240121_240510\clips" [label="clips (0 bytes)\l"]
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	"CAM\Cam3_240121_240510\index" [label="index (104.0 kB)\l2 Files (104.0 kB)\l"]
+	node [shape=box style=""]
+	"CAM\Cam3_240121_240510\index_files_212" [label="enclist\lfilelist\l"]
+	"CAM\Cam3_240121_240510\index" -> "CAM\Cam3_240121_240510\index_files_212"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	"CAM\Cam3_240121_240510\MP4" [label="MP4 (45.75 GB)\l147 Files (45.75 GB)\l"]
+	node [shape=box style=""]
+	"CAM\Cam3_240121_240510\MP4_files_213" [label="200808_02.08.51_02.19.08_M.mp4\l200808_02.19.27_02.49.27_M.mp4\l200808_02.49.28_01.14.36_M.mp4\l240131_18.10.41_18.40.41_M.mp4\l240131_18.40.42_19.10.42_M.mp4\l240131_19.10.45_19.40.48_M.mp4\l240131_19.40.49_20.10.49_M.mp4\l240131_20.10.50_20.36.56_M.mp4\l240131_20.37.28_21.07.28_M.mp4\l240131_21.07.29_21.37.29_M.mp4\l240131_21.37.30_22.07.30_M.mp4\l240131_22.07.31_22.37.31_M.mp4\l240131_22.37.32_23.07.32_M.mp4\l240131_23.07.33_23.37.33_M.mp4\l240131_23.37.34_23.59.59_M.mp4\l240201_00.00.00_00.04.03_M.mp4\l240402_15.22.02_15.52.02_M.mp4\l240402_15.52.03_16.22.03_M.mp4\l240402_16.22.04_16.52.04_M.mp4\l240402_16.52.05_16.59.00_M.mp4\l240408_07.45.37_08.15.37_M.mp4\l240408_08.15.38_08.34.49_M.mp4\l240416_20.58.38_21.22.28_M.mp4\l240416_21.35.44_22.05.44_M.mp4\l240416_22.05.45_22.35.45_M.mp4\l240416_22.35.46_23.05.46_M.mp4\l240416_23.05.47_23.35.47_M.mp4\l240416_23.35.48_23.59.59_M.mp4\l240417_00.00.00_00.30.00_M.mp4\l240417_00.30.01_00.49.21_M.mp4\l240417_07.44.46_08.14.47_M.mp4\l240417_08.14.48_08.44.48_M.mp4\l240417_08.44.49_09.14.49_M.mp4\l240417_09.14.50_09.44.50_M.mp4\l240417_09.44.51_10.14.51_M.mp4\l240417_10.14.52_10.44.52_M.mp4\l240417_10.44.53_11.14.53_M.mp4\l240417_11.14.54_11.44.55_M.mp4\l240417_11.44.56_12.01.14_M.mp4\l240418_01.50.30_01.52.42_M.mp4\l240418_08.19.51_08.49.51_M.mp4\l240418_08.49.52_09.09.21_M.mp4\l240418_10.08.20_10.38.20_M.mp4\l240418_10.38.21_11.08.21_M.mp4\l240418_11.08.22_11.38.22_M.mp4\l240418_11.38.23_12.08.23_M.mp4\l240418_12.08.24_12.38.24_M.mp4\l240418_12.38.25_13.08.25_M.mp4\l240418_13.08.26_13.34.38_M.mp4\l240423_07.02.54_07.29.19_M.mp4\l240423_19.54.36_20.24.36_M.mp4\l240423_20.24.37_20.54.37_M.mp4\l240423_20.54.38_21.24.38_M.mp4\l240423_21.24.39_21.54.39_M.mp4\l240423_21.54.40_22.11.39_M.mp4\l240424_10.03.52_10.24.37_M.mp4\l240424_10.36.26_11.06.26_M.mp4\l240424_11.06.27_11.36.27_M.mp4\l240424_11.36.28_12.06.28_M.mp4\l240424_12.06.29_12.36.29_M.mp4\l240424_12.36.30_13.06.30_M.mp4\l240424_13.06.31_13.36.31_M.mp4\l240424_13.36.32_13.37.02_M.mp4\l240424_14.14.24_14.44.24_M.mp4\l240424_14.44.25_15.06.58_M.mp4\l240425_15.50.08_16.06.47_M.mp4\l240426_11.03.00_11.33.00_M.mp4\l240426_11.33.01_12.03.01_M.mp4\l240426_12.03.02_12.33.02_M.mp4\l240426_12.33.03_13.03.03_M.mp4\l240426_13.03.04_13.33.04_M.mp4\l240426_13.33.05_14.03.05_M.mp4\l240426_14.03.06_14.33.06_M.mp4\l240426_14.33.07_15.03.07_M.mp4\l240426_15.03.08_15.33.08_M.mp4\l240426_15.33.09_15.33.15_M.mp4\l240429_17.54.34_18.24.34_M.mp4\l240429_18.24.35_18.54.35_M.mp4\l240429_18.54.36_19.24.36_M.mp4\l240429_19.24.37_19.36.20_M.mp4\l240430_07.00.33_07.30.33_M.mp4\l240430_07.30.34_08.00.34_M.mp4\l240430_08.00.35_08.04.52_M.mp4\l240430_18.51.56_19.21.56_M.mp4\l240430_19.21.57_19.51.57_M.mp4\l240430_19.51.58_20.21.58_M.mp4\l240430_20.21.59_20.51.59_M.mp4\l240430_20.52.00_21.22.00_M.mp4\l240430_21.22.01_21.52.01_M.mp4\l240430_21.52.02_22.22.02_M.mp4\l240430_22.22.03_22.52.03_M.mp4\l240430_22.52.04_23.22.04_M.mp4\l240430_23.22.05_23.52.02_M.mp4\l240507_10.43.00_11.04.40_M.mp4\l240509_16.46.39_17.16.39_M.mp4\l240509_17.16.40_17.46.40_M.mp4\l240509_17.46.41_18.16.41_M.mp4\l240509_18.16.42_18.46.42_M.mp4\l240509_18.46.43_19.16.43_M.mp4\l240509_19.16.44_19.46.44_M.mp4\l240509_19.46.45_20.16.45_M.mp4\l240509_20.16.46_20.46.46_M.mp4\l240509_20.46.47_21.16.47_M.mp4\l240509_21.16.48_21.44.46_M.mp4\l240509_21.45.03_21.52.43_M.mp4\l240509_21.53.02_22.23.02_M.mp4\l240509_22.23.03_22.53.03_M.mp4\l240509_22.53.04_23.23.04_M.mp4\l240509_23.23.05_23.53.05_M.mp4\l240509_23.53.06_23.59.59_M.mp4\l240510_00.00.00_00.13.42_M.mp4\l240510_01.14.37_01.44.37_M.mp4\l240510_01.44.38_02.14.38_M.mp4\l240510_02.14.39_02.44.39_M.mp4\l240510_02.44.40_03.14.40_M.mp4\l240510_03.14.41_03.44.41_M.mp4\l240510_03.44.42_04.14.42_M.mp4\l240510_04.14.43_04.44.43_M.mp4\l240510_04.44.44_05.14.44_M.mp4\l240510_05.14.45_05.44.45_M.mp4\l240510_05.44.46_06.14.46_M.mp4\l240510_06.14.47_06.44.47_M.mp4\l240510_06.44.48_06.46.04_M.mp4\l240510_08.14.37_08.44.37_M.mp4\l240510_08.44.38_09.14.38_M.mp4\l240510_09.14.39_09.44.39_M.mp4\l240510_09.44.40_10.14.40_M.mp4\l240510_10.14.41_10.44.41_M.mp4\l240510_10.44.42_11.14.42_M.mp4\l240510_11.14.43_11.44.43_M.mp4\l240510_11.44.44_12.14.44_M.mp4\l240510_12.14.45_12.44.45_M.mp4\l240510_12.44.46_13.14.46_M.mp4\l240510_13.14.47_13.44.47_M.mp4\l240510_13.44.48_14.14.48_M.mp4\l240510_14.14.49_14.44.49_M.mp4\l240510_14.44.50_15.14.50_M.mp4\l240510_15.14.51_15.44.51_M.mp4\l240510_15.44.52_16.14.52_M.mp4\l240510_16.14.53_16.44.53_M.mp4\l240510_16.44.54_17.14.54_M.mp4\l240510_17.14.55_17.44.55_M.mp4\l240510_17.44.56_18.14.56_M.mp4\l240510_18.14.57_18.44.57_M.mp4\l240510_18.44.58_19.14.58_M.mp4\l240510_19.14.59_19.44.59_M.mp4\l240510_19.45.00_20.10.22_M.mp4\l"]
+	"CAM\Cam3_240121_240510\MP4" -> "CAM\Cam3_240121_240510\MP4_files_213"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	"New folder" [label="New folder (8.95 GB)\l5 Files (8.95 GB)\l"]
+	node [shape=box style=""]
+	"New folder_files_214" [label="MOVI0000.avi\lMOVI0001 (2).avi\lMOVI0001.avi\lMOVI0002 (2).avi\lMOVI0002.avi\l"]
+	"New folder" -> "New folder_files_214"
+	node [fillcolor=lemonchiffon shape=folder style="filled,bold"]
+	SIM [label="SIM (62.82 GB)\l74 Files (62.82 GB)\l"]
+	node [shape=box style=""]
+	SIM_files_215 [label="202211240755VID_005N.mp4\l202211240818VID_018N.mp4\l202211240819VID_019N.mp4\l202211240820VID_020N.mp4\l202211240822VID_021N.mp4\l202211240825VID_022N.mp4\l202211240826VID_023N.mp4\l202211240827VID_024N.mp4\l202211240828VID_025N.mp4\l202211240829VID_026N.mp4\l202211240830VID_027N.mp4\l20221124_08.52.35_09.12.24N.mp4\l221124_08.15.00_08.25.00_N.mp4\l221124_08.25.00_08.35.00_N.mp4\l221124_08.34.00_08.41.00_N.mp4\l221124_08.40.00_08.45.48_N.mp4\lAlex20221023_202211161300.mp4\lAlex202211111054.mp4\lAlex202211150730.mp4\lAlex202211151900.mp4\lAlex202211151901.mp4\lAlex202211152018N.mp4\lAlex202211160914.mp4\lAlex202211161854.mp4\lAlex202211170800N.mp4\lAlex202211190044.mp4\lAlex202211190733VID_018N.mp4\lAlex202211190801VID_016N.mp4\lAlex202211190805VID_017N.mp4\lAlex202211190806VID_018N.mp4\lAlex202211190808.mp4\lAlex202211190808VID_019N.mp4\lAlex202211190809VID_020N.mp4\lAlex202211190811VID_021N.mp4\lAlex202211190814VID_022N.mp4\lAlex202211190816VID_023N.mp4\lAlex202211190817VID_024N.mp4\lAlex202211190818VID_025N.mp4\lAlex202211190819VID_026N.mp4\lAlex202211190820N.mp4\lAlex202211190824VID_015N.mp4\lAlex202211190833N.mp4\lAlex202211190833N2.mp4\lAlex202211190843hk_camera_N.mp4\lAlex202211190843N.mp4\lAlex202211190846-53-148ScreenrecorderN.mp4\lAlex202211190846hk_camera_N.mp4\lAlex202211190856-50-985ScreenrecorderN.mp4\lAlex202211190856hk_camera_N.mp4\lAlex202211190856N.mp4\lAlex202211190857.47_09.27.48_N.mp4\lAlex202211200410VID_002N.mp4\lAlex202211200412VID_003N.mp4\lAlex202211201319VID_009N.mp4\lAlex202211201321VID_010N.mp4\lAlex202211201607VID_014N.mp4\lAlex202211201611VID_015N.mp4\lAlex202211201612VID_016N.mp4\lAlex202211201700VID_002N.mp4\lAlex202211201707VID_003N.mp4\lAlex20221122VID_006N.mp4\lAlex20221123_2200.mp4\lAlex221121_00.43.33_00.44.33VID_019N.mp4\lAlex221121_00.46.21_00.47.21VID_020N.mp4\lAlex221121_01.14.34_01.15.34VID_046N.mp4\lAlex221121_01.20.25_01.21.24VID_047N.mp4\lAlex221121_17.39.52_17.49.24_N.mp4\lAlex221121_17.47.22_17.52.42_N.mp4\lAlex221121_17.48.00_18.55.00_N.mp4\lAlex221121_17.51.02_17.57.35_N.mp4\lNIKON001.DSC\lScreenrecorder-2022-11-24-08-19-08-676.mp4\lScreenrecorder-2022-11-24-08-34-14-562N.mp4\lvlc-record-2022-12-27-15h04m43s-Alex20221121_17.39.56_19.29.11N.mp4-.mp4\l"]
+	SIM -> SIM_files_215
+}
