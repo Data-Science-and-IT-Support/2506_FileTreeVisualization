@@ -1,0 +1,18 @@
+C:\Users\email\Desktop\Repos\Data_Science_IT_Support_repos\250601_FileTreeVisualization\dist>FileTree_App.exe
+Traceback (most recent call last):
+  File "importlib\metadata\__init__.py", line 563, in from_name
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "FileTree_App.py", line 4, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 457, in exec_module
+  File "streamlit\__init__.py", line 63, in <module>
+  File "PyInstaller\loader\pyimod02_importers.py", line 457, in exec_module
+  File "streamlit\version.py", line 18, in <module>
+  File "importlib\metadata\__init__.py", line 1008, in version
+  File "importlib\metadata\__init__.py", line 981, in distribution
+  File "importlib\metadata\__init__.py", line 565, in from_name
+importlib.metadata.PackageNotFoundError: No package metadata was found for streamlit
+[PYI-22536:ERROR] Failed to execute script 'FileTree_App' due to unhandled exception!
