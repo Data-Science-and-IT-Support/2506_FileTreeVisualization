@@ -1,39 +1,96 @@
-Copilot
-Perfect! Let’s go with Option 1: PyInstaller + pywebview, and I’ll guide you through a working setup that avoids the PackageNotFoundError and creates a standalone .exe.
+✅ 1. Where to Find the Compiled App
+After running:
 
-✅ Step-by-Step Plan
-1. Prepare Your Project Folder
-Make sure your folder contains:
+bash
+Copy
+Edit
+pyinstaller run_app.spec
+You'll see these folders created:
 
-FileTree_App.py (your Streamlit app)
-launch_with_webview.py (the launcher script I gave you)
-A requirements.txt file with at least:
-streamlit
-pywebview
-2. Create a PyInstaller .spec File
-We’ll customize this to include Streamlit’s metadata.
+swift
+Copy
+Edit
+/dist/run_app/        ← ✅ This is your deployable app folder
+/build/
+run_app.spec
+Inside /dist/run_app/, you'll find:
 
-3. Build the Executable
-Use PyInstaller with the .spec file to generate a .exe.
+pgsql
+Copy
+Edit
+run_app.exe           ← ✅ This is the executable to run
+<all other bundled files and dependencies>
+▶️ 2. How to Run the App
+On your development machine:
+bash
+Copy
+Edit
+cd dist/run_app
+./run_app.exe
+✅ This will:
 
-🛠️ I’ll now generate the .spec file and update the launcher script if needed.
-Analysis
-✅ The custom PyInstaller .spec file has been generated successfully:
+Launch your FileTree_App.py via Streamlit
 
-📄 Download launch_with_webview.spec
+Open it in a native pywebview window
 
-🚀 Final Steps to Build Your .exe
-Install PyInstaller (if not already):
+All in a self-contained manner
 
+🚀 3. How to Deploy to Any Windows Machine
+Option A – Manual Copy
+Copy the entire dist/run_app/ folder to a USB stick, shared folder, or cloud drive.
 
-Build the Executable using the .spec file:
+On the target Windows machine, double-click run_app.exe.
 
+⚠️ No Python needed on the target machine — it’s fully bundled.
 
-After the build completes, your .exe will be in the dist/launch_with_webview/ folder.
+Option B – Create a .zip or installer
+🔹 To create a .zip:
+bash
+Copy
+Edit
+cd dist
+powershell Compress-Archive -Path run_app -DestinationPath FileTreeViewer.zip
+🔹 To create an installer (optional tools):
+Inno Setup
 
-🧪 Test It
-Double-click the .exe file. It should:
+NSIS (Nullsoft Scriptable Install System)
 
-Launch your Streamlit app in the background.
-Open a native window via pywebview.
-Would you like me to generate a requirements.txt file too, or help you test the .exe?
+Advanced Installer (GUI)
+
+These can:
+
+Create a Windows installer .exe
+
+Add a desktop/start menu shortcut
+
+Handle silent installs
+
+🧪 Optional: Streamlit Config
+If you want to prevent Streamlit from showing the sidebar/hamburger icon, you can include this in .streamlit/config.toml:
+
+toml
+Copy
+Edit
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+headless = true
+
+[server]
+headless = true
+runOnSave = false
+Include it in your build by adding this to run_app.spec:
+
+python
+Copy
+Edit
+('path/to/.streamlit/config.toml', '.streamlit'),
+✅ What to Share
+You can give users either:
+
+FileTreeViewer.zip and instructions to unzip & run run_app.exe, or
+
+A custom Windows installer .exe
+
+Would you like help generating a simple installer script too?
