@@ -1,15 +1,10 @@
 ✅ 1. Where to Find the Compiled App
 After running:
 
-bash
-Copy
-Edit
 pyinstaller run_app.spec
 You'll see these folders created:
 
-swift
-Copy
-Edit
+
 /dist/run_app/        ← ✅ This is your deployable app folder
 /build/
 run_app.spec
