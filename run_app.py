@@ -1,10 +1,15 @@
 # run_app.py
-import streamlit.web.bootstrap
+import subprocess
 import threading
 import time
 import webview
 import os
 import socket
+import sys
+
+
+import logging
+logging.basicConfig(filename="run_app.log", level=logging.DEBUG)
 
 def is_port_open(port, host="localhost"):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
@@ -12,12 +17,12 @@ def is_port_open(port, host="localhost"):
 
 def start_streamlit():
     app_path = os.path.join(os.path.dirname(__file__), "FileTree_App.py")
-    streamlit.web.bootstrap.run(app_path, command_line=None)
+    subprocess.Popen([sys.executable, "-m", "streamlit", "run", app_path])
 
-def wait_for_streamlit(port=8501):
+def wait_for_server():
     print("Waiting for Streamlit server to start...")
-    for _ in range(40):  # Wait up to 20 seconds
-        if is_port_open(port):
+    for _ in range(40):
+        if is_port_open(8501):
             print("Streamlit server is running.")
             return True
         time.sleep(0.5)
@@ -25,16 +30,12 @@ def wait_for_streamlit(port=8501):
     return False
 
 def main():
-    # Start Streamlit in background
     threading.Thread(target=start_streamlit, daemon=True).start()
-
-    # Wait until the server is up
-    if wait_for_streamlit():
-        # Open Streamlit in PyWebView window
-        webview.create_window("File Tree Visualization", "http://localhost:8501", width=1200, height=800)
+    if wait_for_server():
+        webview.create_window("File Tree Viewer", "http://localhost:8501", width=1200, height=800)
         webview.start()
     else:
-        print("Failed to launch Streamlit app.")
+        print("Failed to start Streamlit.")
 
 if __name__ == "__main__":
     main()

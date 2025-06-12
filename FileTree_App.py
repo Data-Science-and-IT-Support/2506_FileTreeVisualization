@@ -10,7 +10,12 @@ from streamlit.components.v1 import html
 from ElasticGraph_fromDir import build_directory_network
 
 
+import logging
+logging.basicConfig(filename="app.log", level=logging.DEBUG)
+logging.debug("Streamlit app started")
+
 st.title("📁 File Tree Visualizer")
+st.write("App is running.")
 
 directory = st.text_input("Directory to visualize", value=os.getcwd())
 max_depth = st.slider("Max folder depth", 0, 10, 2)
