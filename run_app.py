@@ -16,8 +16,28 @@ def is_port_open(port, host="localhost"):
         return s.connect_ex((host, port)) == 0
 
 def start_streamlit():
+    import subprocess
+    import os
+
+    # Absolute or relative path to your bundled streamlit.exe
+    streamlit_path = os.path.join(os.path.dirname(__file__), "streamlit.exe")
     app_path = os.path.join(os.path.dirname(__file__), "FileTree_App.py")
-    subprocess.Popen([sys.executable, "-m", "streamlit", "run", app_path])
+
+    print(f"Running: {streamlit_path} run {app_path}")
+
+    try:
+        proc = subprocess.Popen(
+            [streamlit_path, "run", app_path],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True
+        )
+
+        for line in proc.stderr:
+            print("[Streamlit STDERR]", line.strip())
+
+    except Exception as e:
+        print("❌ Failed to launch Streamlit:", e)
 
 def wait_for_server():
     print("Waiting for Streamlit server to start...")
