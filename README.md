@@ -1,17 +1,23 @@
 # 2506_FileTreeVisualization
-***Goal:*** *App Im writing this te,t to explain to you the motive And reason of this app. It was though as a weekend project g when I wanted to organize my own files and photos in my computers.  I also have many high capacity HD and I know there are many duplicated files.  The pro lem is ghat sometimes they have different name.
-Using the windows file explorer demonstrates was not easy or adequate thus I thought of making an app where I can see the file structure visually.  Also a list with the most important info of the files under any specific directory and its children.  That way I could compare the file size and the name.
-Making easier to find and delete duplicates.
+***Explanation:*** 
+Hi there, I hope you are fine. 
+I will attempt here to explain to you the motive And reason of this app. It was though as a weekend project. I wanted to organize my own files and photos in my computers.  I have many high capacity HD and there are many duplicated files in most unexpected places.  Sometimes they have the same content but the filename is different.*
 
-You just need to write the base directory and have few choices to see the structure.
+Using the windows file explorer was not enough and more difficult that it should. Thus I thought of making an app where I can see the file tree structure visually more than one level down. I also wanted an excel, CSV or Dataframe file with the most important info of the whole tree file so I could search for duolicates, compare file date creation and size, etc. making easier to identify duplicates.
 
-This app can also be used to explain a project a college or somebody else or to understand the organization of a file system. For example the structure of a software project.
+Of course knowing you file tree structure is also very helpful to understand your projects, repos, etc. It can be used also to explain a project structire to someone else, a colleage, student, etc.
 
-I hope is intituve enough  , for any feedback please send me a message. My email is in my website. Where i will post this app installer as well
+I may create new version if needed, for this one I used streamlit as UI, which unfortunately does not have a file picker.
 
-At this moment works only for Windows,  if I see 8nterest I will create an installer for other OS
+That is why you just need to write in the input box the "root" (base) directory and then select your  choices of hidden or not hidden and how many levels down of the structure you want to explore.
 
-#
+I hope is intituve enough, for any feedback please send me a message. My email is in my website: www.jesusbasail.com Where you will be able to download this app. 
+
+At this moment works only for Windows, on demand other OS would be available.
+
+---
+
+The followng section is regarding the repo setup, not the App itslef. 
 
 ## Set up your Environment
 This repo contains a requirements.txt file with a list of all the packages and dependencies you will need. Before you install the virtual environment. Before you can start with plotly in Jupyter Lab you have to install node.js (if you haven't done it before).
