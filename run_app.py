@@ -23,7 +23,7 @@ def start_streamlit():
     streamlit_path = os.path.join(os.path.dirname(__file__), "streamlit.exe")
     app_path = os.path.join(os.path.dirname(__file__), "FileTree_App.py")
 
-    print(f"Running: {streamlit_path} run {app_path}")
+    #print(f"Running: {streamlit_path} run {app_path}")
 
     try:
         proc = subprocess.Popen(
@@ -40,10 +40,10 @@ def start_streamlit():
         print("❌ Failed to launch Streamlit:", e)
 
 def wait_for_server():
-    print("Waiting for Streamlit server to start...")
+    #print("Waiting for Streamlit server to start...")
     for _ in range(40):
         if is_port_open(8501):
-            print("Streamlit server is running.")
+            #print("Streamlit server is running.")
             return True
         time.sleep(0.5)
     print("Streamlit server failed to start.")
