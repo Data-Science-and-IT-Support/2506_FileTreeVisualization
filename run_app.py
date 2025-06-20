@@ -1,14 +1,11 @@
-# run_app.py
 import subprocess
 import threading
 import time
 import webview
-import os
 import socket
-import sys
-
-
+import os
 import logging
+
 logging.basicConfig(filename="run_app.log", level=logging.DEBUG)
 
 def is_port_open(port, host="localhost"):
@@ -16,38 +13,41 @@ def is_port_open(port, host="localhost"):
         return s.connect_ex((host, port)) == 0
 
 def start_streamlit():
-    import subprocess
-    import os
+    base_dir = os.path.dirname(__file__)
+    python_exe = os.path.join(base_dir, "_internal", "python.exe")  # REAL Python, not PyInstaller .exe
+    app_path = os.path.join(base_dir, "_internal", "FileTree_App.py")
 
-    # Absolute or relative path to your bundled streamlit.exe
-    streamlit_path = os.path.join(os.path.dirname(__file__), "streamlit.exe")
-    app_path = os.path.join(os.path.dirname(__file__), "FileTree_App.py")
+    command = [
+        python_exe,
+        "-m", "streamlit",
+        "run", app_path,
+        "--server.port=8501",
+        "--server.headless=true"
+    ]
 
-    command = f'"{streamlit_path}" run "{app_path}" --server.port=8501 --server.headless=true'
-
-    print(f"Running: {command}")
+    logging.debug("Launching Streamlit with: " + ' '.join(command))
+    print("Running:", ' '.join(command))
 
     try:
-        proc = subprocess.Popen(
-            [streamlit_path, "run", app_path],
+        subprocess.Popen(
+            command,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True
         )
-
-        for line in proc.stderr:
-            print("[Streamlit STDERR]", line.strip())
-
     except Exception as e:
+        logging.error(f"❌ Failed to launch Streamlit: {e}")
         print("❌ Failed to launch Streamlit:", e)
 
 def wait_for_server():
+    logging.debug("Waiting for Streamlit server to start...")
     print("Waiting for Streamlit server to start...")
     for _ in range(40):
         if is_port_open(8501):
-            print("Streamlit server is running.")
+            logging.debug("Streamlit server is running.")
             return True
         time.sleep(0.5)
+    logging.error("Streamlit server failed to start.")
     print("Streamlit server failed to start.")
     return False
 
